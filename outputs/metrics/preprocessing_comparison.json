@@ -1,0 +1,29 @@
+[
+  {
+    "voxel": 0.06,
+    "n": 773123,
+    "seconds": 9.285547841000152,
+    "median_neighbor": 0.04772673169773187,
+    "d8_q90": 0.10908051444337113,
+    "sor_candidates": 8652,
+    "radius_isolated": 3550
+  },
+  {
+    "voxel": 0.08,
+    "n": 459991,
+    "seconds": 7.612509403999866,
+    "median_neighbor": 0.06451768118948839,
+    "d8_q90": 0.14126417577424222,
+    "sor_candidates": 5716,
+    "radius_isolated": 1980
+  },
+  {
+    "voxel": 0.12,
+    "n": 216713,
+    "seconds": 11.032894808000492,
+    "median_neighbor": 0.09266672053067188,
+    "d8_q90": 0.20929740917407283,
+    "sor_candidates": 3382,
+    "radius_isolated": 1133
+  }
+]

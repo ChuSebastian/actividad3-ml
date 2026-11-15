@@ -1,0 +1,40 @@
+{
+  "n_points": 1647021,
+  "n_segments": 1967,
+  "n_cylinder_models": 7,
+  "n_cylinder_instances": 7,
+  "source_sha256": "d971cdfa4ee61dc56390b71ec1e3fe7a00c09aaa8f781167ded9b477e6af65c7",
+  "labels_sha256": "abcc4c8eaf8af8e915416bd2a73939581ca4db7f17138c8b2002568357f7855c",
+  "classes_sha256": "cef876218c406d041958ac13025f868973ea121dff4e6171e66e39a1434be368",
+  "cylinder_models_sha256": "dbd2cc822adb1580f81cd3d2d6d51cf21ea5b15f6b040950102e5469e4270034",
+  "ply_sha256": {
+    "segmentacion_instancias.ply": "804342b4bf0c024cf2600b62f230844040fe9791fc57d5379a47cc7e9741eb50",
+    "segmentacion_clases.ply": "d574548a18a3480c212d53266d8db5f86df8125e89fd039b3bf1a6061e13781d"
+  },
+  "table_numeric_columns": [
+    "segment_id",
+    "n_points",
+    "centroid_x",
+    "centroid_y",
+    "centroid_z",
+    "bbox_min_x",
+    "bbox_min_y",
+    "bbox_min_z",
+    "bbox_max_x",
+    "bbox_max_y",
+    "bbox_max_z",
+    "dimension_x",
+    "dimension_y",
+    "dimension_z",
+    "linearity",
+    "planarity",
+    "scattering",
+    "pca_vertical_alignment",
+    "normal_coherence",
+    "semantic_id",
+    "display_red",
+    "display_green",
+    "display_blue"
+  ],
+  "table_numeric_sha256": "039327793cc23662200761e65c3de81bcff4fde7463b58737a46bd9a2ea4bc9a"
+}

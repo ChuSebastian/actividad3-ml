@@ -1,0 +1,15 @@
+{
+  "n_segments": 1967,
+  "n_points": 1647021,
+  "unknown_points": 48091,
+  "unknown_pct": 2.919877767193011,
+  "coverage_pct": 97.08012223280699,
+  "largest_pct": 14.96259003376399,
+  "size_min": 12,
+  "size_median": 189.0,
+  "size_p90": 1237.4,
+  "size_max": 246437,
+  "small_segments_lt100": 621,
+  "semantic_unknown_points": 427058,
+  "semantic_unknown_pct": 25.9291168722196
+}

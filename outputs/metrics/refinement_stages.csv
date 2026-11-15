@@ -1,0 +1,3 @@
+stage,n_segments,n_points,unknown_points,unknown_pct,coverage_pct,largest_pct,size_min,size_median,size_p90,size_max,small_segments_lt100,semantic_unknown_points,semantic_unknown_pct,regions_lt100,points_in_regions_lt100,regions_lt200,points_in_regions_lt200,regions_lt500,points_in_regions_lt500
+region_refinement,1981,1647021,48235,2.9286208251139483,97.07137917488603,14.96259003376399,12,191.0,1173.0,246437,616,437384,26.556066983966808,616,31332,1005,88476,1502,246422
+cylinder_refinement,1967,1647021,48091,2.919877767193011,97.080122232807,14.96259003376399,12,189.0,1237.4,246437,621,427058,25.9291168722196,621,31518,1003,87511,1488,241834

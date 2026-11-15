@@ -1,0 +1,234 @@
+{
+  "large_region_splits": [
+    {
+      "source_id": 95,
+      "source_representatives": 78868,
+      "slice_height": 2.2362506551543886,
+      "supports": [
+        {
+          "new_id": 525,
+          "n_representatives": 2562,
+          "xy_min": [
+            0.4581599426269531,
+            -7.291191749572754
+          ],
+          "xy_max": [
+            1.3577795950571696,
+            -6.170352764129639
+          ]
+        },
+        {
+          "new_id": 526,
+          "n_representatives": 1804,
+          "xy_min": [
+            6.450340576171875,
+            -7.0916052389144895
+          ],
+          "xy_max": [
+            7.1579987335205075,
+            -6.253251857757569
+          ]
+        },
+        {
+          "new_id": 527,
+          "n_representatives": 2602,
+          "xy_min": [
+            12.28732234954834,
+            -2.114389114379883
+          ],
+          "xy_max": [
+            13.124775899251302,
+            -1.1551891438166302
+          ]
+        },
+        {
+          "new_id": 528,
+          "n_representatives": 1773,
+          "xy_min": [
+            12.364066905975342,
+            -7.0899084854125975
+          ],
+          "xy_max": [
+            13.112560157775878,
+            -6.259335250854493
+          ]
+        },
+        {
+          "new_id": 529,
+          "n_representatives": 2032,
+          "xy_min": [
+            18.033993549346924,
+            -7.088098220825195
+          ],
+          "xy_max": [
+            19.161048583984375,
+            -6.024146385192871
+          ]
+        },
+        {
+          "new_id": 530,
+          "n_representatives": 2863,
+          "xy_min": [
+            18.391455478668213,
+            -2.0196848837534587
+          ],
+          "xy_max": [
+            19.2609326171875,
+            -1.1345152628421784
+          ]
+        }
+      ],
+      "orientation_regions": 482,
+      "reason": "Macroregión con gran extensión 3D y cadenas de contacto; partición local por soportes y orientación"
+    },
+    {
+      "source_id": 127,
+      "source_representatives": 101496,
+      "slice_height": 3.818534183601539,
+      "supports": [
+        {
+          "new_id": 1013,
+          "n_representatives": 3189,
+          "xy_min": [
+            3.1585347127914427,
+            19.582779235839844
+          ],
+          "xy_max": [
+            3.9667269515991213,
+            20.7713724899292
+          ]
+        },
+        {
+          "new_id": 1014,
+          "n_representatives": 5291,
+          "xy_min": [
+            3.2546566200256346,
+            4.690177904764812
+          ],
+          "xy_max": [
+            4.228147201538086,
+            5.828176193237304
+          ]
+        },
+        {
+          "new_id": 1015,
+          "n_representatives": 3410,
+          "xy_min": [
+            8.13931177775065,
+            19.721248931884766
+          ],
+          "xy_max": [
+            8.96537540435791,
+            20.841624908447265
+          ]
+        },
+        {
+          "new_id": 1016,
+          "n_representatives": 5502,
+          "xy_min": [
+            8.283927110036215,
+            4.702071971893311
+          ],
+          "xy_max": [
+            9.16981590270996,
+            5.892655425071716
+          ]
+        },
+        {
+          "new_id": 1017,
+          "n_representatives": 5144,
+          "xy_min": [
+            13.321213788986206,
+            4.814141578674317
+          ],
+          "xy_max": [
+            14.1597625541687,
+            5.952317290306091
+          ]
+        },
+        {
+          "new_id": 1018,
+          "n_representatives": 3003,
+          "xy_min": [
+            19.237778650919598,
+            19.878977127075196
+          ],
+          "xy_max": [
+            20.074447326660156,
+            21.069204025268554
+          ]
+        }
+      ],
+      "orientation_regions": 354,
+      "reason": "Macroregión con gran extensión 3D y cadenas de contacto; partición local por soportes y orientación"
+    }
+  ],
+  "vertical_merges": [
+    {
+      "before": [
+        459,
+        1018
+      ],
+      "after": 459,
+      "reason": "Caras verticales esbeltas, proximidad XY y solapamiento vertical"
+    },
+    {
+      "before": [
+        548,
+        763,
+        898
+      ],
+      "after": 548,
+      "reason": "Caras verticales esbeltas, proximidad XY y solapamiento vertical"
+    },
+    {
+      "before": [
+        577,
+        586,
+        772,
+        936,
+        1001,
+        1002
+      ],
+      "after": 577,
+      "reason": "Caras verticales esbeltas, proximidad XY y solapamiento vertical"
+    },
+    {
+      "before": [
+        1094,
+        1182,
+        1366
+      ],
+      "after": 1094,
+      "reason": "Caras verticales esbeltas, proximidad XY y solapamiento vertical"
+    },
+    {
+      "before": [
+        1096,
+        1194,
+        1369
+      ],
+      "after": 1096,
+      "reason": "Caras verticales esbeltas, proximidad XY y solapamiento vertical"
+    },
+    {
+      "before": [
+        1102,
+        1106,
+        1193,
+        1196,
+        1370,
+        1372
+      ],
+      "after": 1102,
+      "reason": "Caras verticales esbeltas, proximidad XY y solapamiento vertical"
+    }
+  ],
+  "boundary_assigned": 32367,
+  "small_assigned": 17501,
+  "final_boundary_assigned": 7703,
+  "semantic_references": {
+    "low_reference": -1.6855811689020745,
+    "high_reference": 8.905413329754321
+  }
+}

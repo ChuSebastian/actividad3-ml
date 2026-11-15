@@ -1,0 +1,134 @@
+{
+  "structure_and_regions": {
+    "voxel": 0.08,
+    "seed": 42,
+    "omp_threads": 1,
+    "ransac": {
+      "threshold": 0.055,
+      "max_planes": 18,
+      "min_support": 700,
+      "iterations": 1200,
+      "normal_angle": 22,
+      "component_eps": 0.22,
+      "min_component": 100
+    },
+    "graph": {
+      "k": 20,
+      "radius": 0.18,
+      "angle": 28,
+      "rgb": 0.4,
+      "tangent": 0.065,
+      "curvature": 0.15,
+      "min_size": 25
+    },
+    "refinement": {
+      "boundary_radii": [
+        0.13,
+        0.11
+      ],
+      "small_radius": 0.14,
+      "small_angle": 35,
+      "small_min_size": 10,
+      "macro_min_representatives": 15000,
+      "macro_min_height": 2.5,
+      "macro_min_xy_extent": 3,
+      "slab_half_thickness": 0.23,
+      "slab_dbscan_eps": 0.24,
+      "slab_dbscan_min": 8,
+      "orientation_kmeans_k": 10,
+      "orientation_n_init": 3,
+      "orientation_batch_size": 4096
+    }
+  },
+  "cylindrical_refinement": {
+    "seed": 42,
+    "protected_semantic_ids": [
+      1,
+      2,
+      4
+    ],
+    "fragment_merge": {
+      "tested_max_original_points": [
+        100,
+        200,
+        500
+      ],
+      "selected": 500,
+      "max_group_points": 2500,
+      "min_contact_edges": 4,
+      "max_contact_distance": 0.115,
+      "max_rgb_delta": 0.2,
+      "min_boundary_normal_dot": 0.97,
+      "max_tangent": 0.025,
+      "max_plane_angle": 10,
+      "max_joint_plane_p95": 0.025,
+      "max_joint_plane_rms": 0.016,
+      "max_parallel_axis_offset": 0.085
+    },
+    "radial_ransac_failed": {
+      "iterations": 180,
+      "thresholds": [
+        0.018,
+        0.028,
+        0.045
+      ],
+      "min_seed_fraction": 0.65,
+      "min_arc": 120
+    },
+    "original_sections": {
+      "axis": "X",
+      "locations": [
+        5,
+        11,
+        17
+      ],
+      "half_width": 0.35,
+      "dbscan_eps": 0.052,
+      "min_samples": 3,
+      "min_component_points": 70,
+      "radius_range": [
+        0.055,
+        0.55
+      ],
+      "max_profile_p95": 0.028,
+      "min_profile_fraction": 0.9,
+      "min_arc": 115
+    },
+    "extended_validation": {
+      "test_sections": 5,
+      "min_available": 4,
+      "min_passed": 3,
+      "min_section_fraction": 0.86,
+      "max_section_p95": 0.035,
+      "min_section_arc": 110,
+      "max_radius_std": 0.018
+    },
+    "transfer": {
+      "max_radial_residual": 0.025,
+      "min_radial_normal_dot": 0.75,
+      "max_normal_axis_dot": 0.4,
+      "max_axial_gap": 0.45,
+      "min_representatives_per_instance": 35,
+      "min_length": 1,
+      "roi": [
+        -1,
+        24,
+        -8,
+        3,
+        0.5,
+        5.4
+      ]
+    },
+    "planar_unknown": {
+      "min_representatives": 50,
+      "max_reduced_p95": 0.022,
+      "min_normal_alignment_fraction": 0.9,
+      "min_normal_dot": 0.94,
+      "min_second_extent": 0.28,
+      "min_planarity": 0.35,
+      "max_original_p95": 0.03
+    },
+    "semantic_new_id": 6,
+    "semantic_new_name": "conduccion_cilindrica_candidata"
+  }
+}

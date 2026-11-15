@@ -1,0 +1,11 @@
+{
+  "vector": [
+    -0.0011921897119719247,
+    0.005790479487590603,
+    0.9999825243627983
+  ],
+  "nearest_axis": "Z",
+  "angle_to_axis_degrees": 0.33873086623634424,
+  "evidence_plane": 0,
+  "status": "inferencia geométrica, no metadato del escáner"
+}

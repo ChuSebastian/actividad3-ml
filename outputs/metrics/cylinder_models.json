@@ -1,0 +1,604 @@
+[
+  {
+    "axis": [
+      0.9999228100661363,
+      0.012408729900426576,
+      0.0006303425259849306
+    ],
+    "center": [
+      17.000020217532107,
+      -2.788385215725217,
+      3.132305701349891
+    ],
+    "radius": 0.2040535629113679,
+    "source": "seccion_original",
+    "section_location": 17.0,
+    "profile": {
+      "axis_index": 0,
+      "location": 17.0,
+      "component": 0,
+      "points": 425,
+      "radius": 0.20453246737235256,
+      "median_residual": 0.0018132733197611939,
+      "p95_residual": 0.006406945748125407,
+      "fraction": 0.9952941176470588,
+      "arc_deg": 272.16124019076756,
+      "accepted_profile": true,
+      "crop": "conductos"
+    },
+    "threshold": 0.022,
+    "accepted": true,
+    "profile_tests": [
+      {
+        "t": -17.46509842040276,
+        "n_points": 245,
+        "fraction": 1.0,
+        "p95": 0.009880532720025615,
+        "arc": 235.89595664635885,
+        "passed": true
+      },
+      {
+        "t": -12.104936169304011,
+        "n_points": 239,
+        "fraction": 1.0,
+        "p95": 0.0038661304407397426,
+        "arc": 232.24288020477843,
+        "passed": true
+      },
+      {
+        "t": -6.744773918205263,
+        "n_points": 234,
+        "fraction": 0.9957264957264957,
+        "p95": 0.007040207631532612,
+        "arc": 240.98794360499488,
+        "passed": true
+      },
+      {
+        "t": -1.3846116671065154,
+        "n_points": 462,
+        "fraction": 0.47835497835497837,
+        "p95": 0.2358574248724418,
+        "arc": 271.90734023384374,
+        "passed": false
+      },
+      {
+        "t": 3.975550583992235,
+        "n_points": 258,
+        "fraction": 1.0,
+        "p95": 0.008842557803554103,
+        "arc": 249.48086507439086,
+        "passed": true
+      }
+    ],
+    "profile_passed": 4,
+    "profile_tested": 5,
+    "radius_section_std": 0.0006894573098943594,
+    "length": 21.940649004394995,
+    "axial_min": -17.71509842040276,
+    "axial_max": 4.225550583992235,
+    "median_radial_residual": 0.002652510443850259,
+    "p95_radial_residual": 0.009424351618679244,
+    "n_representatives": 1641,
+    "crop": "conductos",
+    "proposal_id": 12,
+    "instance_ids": [
+      1999
+    ]
+  },
+  {
+    "axis": [
+      0.9999062928096233,
+      0.013682914581399594,
+      0.0004283086197521261
+    ],
+    "center": [
+      5.000018558608793,
+      -3.984629472309408,
+      3.028753392212703
+    ],
+    "radius": 0.11035859921110766,
+    "source": "seccion_original",
+    "section_location": 5.0,
+    "profile": {
+      "axis_index": 0,
+      "location": 5.0,
+      "component": 19,
+      "points": 221,
+      "radius": 0.11119540049189895,
+      "median_residual": 0.0015884051524076154,
+      "p95_residual": 0.006020524882379016,
+      "fraction": 0.995475113122172,
+      "arc_deg": 244.02651020111327,
+      "accepted_profile": true,
+      "crop": "conductos"
+    },
+    "threshold": 0.022,
+    "accepted": true,
+    "profile_tests": [
+      {
+        "t": -5.511253945672774,
+        "n_points": 142,
+        "fraction": 1.0,
+        "p95": 0.006923783560765057,
+        "arc": 245.41911612334968,
+        "passed": true
+      },
+      {
+        "t": -0.12163704231746131,
+        "n_points": 142,
+        "fraction": 0.9859154929577465,
+        "p95": 0.0047554477830685175,
+        "arc": 244.15141765682563,
+        "passed": true
+      },
+      {
+        "t": 5.267979861037851,
+        "n_points": 137,
+        "fraction": 0.9197080291970803,
+        "p95": 0.02502363586294133,
+        "arc": 223.8631974223419,
+        "passed": true
+      },
+      {
+        "t": 10.657596764393166,
+        "n_points": 392,
+        "fraction": 0.30612244897959184,
+        "p95": 0.2380459995845405,
+        "arc": 94.15545797125418,
+        "passed": false
+      },
+      {
+        "t": 16.047213667748476,
+        "n_points": 119,
+        "fraction": 0.9243697478991597,
+        "p95": 0.034002903272008105,
+        "arc": 207.6839062919537,
+        "passed": true
+      }
+    ],
+    "profile_passed": 4,
+    "profile_tested": 5,
+    "radius_section_std": 0.00015356475268082863,
+    "length": 22.05846761342125,
+    "axial_min": -5.761253945672774,
+    "axial_max": 16.297213667748476,
+    "median_radial_residual": 0.002332332968047489,
+    "p95_radial_residual": 0.00946675962315198,
+    "n_representatives": 420,
+    "crop": "conductos",
+    "proposal_id": 7,
+    "instance_ids": [
+      2000
+    ]
+  },
+  {
+    "axis": [
+      0.9999070417618042,
+      0.013617133150017453,
+      0.0006939163728220082
+    ],
+    "center": [
+      11.000052847570975,
+      -6.077818773066475,
+      3.1301663244361806
+    ],
+    "radius": 0.20493869285482955,
+    "source": "seccion_original",
+    "section_location": 11.0,
+    "profile": {
+      "axis_index": 0,
+      "location": 11.0,
+      "component": 3,
+      "points": 299,
+      "radius": 0.2033871443198776,
+      "median_residual": 0.0014707599111921377,
+      "p95_residual": 0.024172934642452355,
+      "fraction": 0.939799331103679,
+      "arc_deg": 166.25784746954355,
+      "accepted_profile": true,
+      "crop": "conductos"
+    },
+    "threshold": 0.022,
+    "accepted": true,
+    "profile_tests": [
+      {
+        "t": -10.728015438459533,
+        "n_points": 228,
+        "fraction": 0.9342105263157895,
+        "p95": 0.02451153553772343,
+        "arc": 215.9513939595218,
+        "passed": true
+      },
+      {
+        "t": -5.586883484986484,
+        "n_points": 212,
+        "fraction": 0.9905660377358491,
+        "p95": 0.007592964560983354,
+        "arc": 204.98297128867384,
+        "passed": true
+      },
+      {
+        "t": -0.4457515315134355,
+        "n_points": 204,
+        "fraction": 0.9215686274509803,
+        "p95": 0.027461264100842032,
+        "arc": 197.95440360442709,
+        "passed": true
+      },
+      {
+        "t": 4.695380421959612,
+        "n_points": 370,
+        "fraction": 0.44594594594594594,
+        "p95": 0.23753969719013185,
+        "arc": 144.4344218637856,
+        "passed": false
+      },
+      {
+        "t": 9.836512375432662,
+        "n_points": 169,
+        "fraction": 0.9526627218934911,
+        "p95": 0.018024965270885915,
+        "arc": 149.9846574083724,
+        "passed": true
+      }
+    ],
+    "profile_passed": 4,
+    "profile_tested": 5,
+    "radius_section_std": 0.0013239192140822344,
+    "length": 21.064527813892195,
+    "axial_min": -10.978015438459533,
+    "axial_max": 10.086512375432662,
+    "median_radial_residual": 0.004899086083160795,
+    "p95_radial_residual": 0.01494020075410617,
+    "n_representatives": 1170,
+    "crop": "conductos",
+    "proposal_id": 9,
+    "instance_ids": [
+      2001
+    ]
+  },
+  {
+    "axis": [
+      0.9999405577715786,
+      0.010844091452037444,
+      0.0011342856975758132
+    ],
+    "center": [
+      4.999980562289204,
+      -4.807551826292074,
+      3.024489173529957
+    ],
+    "radius": 0.11040871488452621,
+    "source": "seccion_original",
+    "section_location": 5.0,
+    "profile": {
+      "axis_index": 0,
+      "location": 5.0,
+      "component": 6,
+      "points": 206,
+      "radius": 0.11124335448010655,
+      "median_residual": 0.0012261773032925527,
+      "p95_residual": 0.007852115453521356,
+      "fraction": 0.970873786407767,
+      "arc_deg": 224.27317843906286,
+      "accepted_profile": true,
+      "crop": "conductos"
+    },
+    "threshold": 0.022,
+    "accepted": true,
+    "profile_tests": [
+      {
+        "t": -3.260663584119516,
+        "n_points": 144,
+        "fraction": 0.875,
+        "p95": 0.03794866105300618,
+        "arc": 224.53382689937018,
+        "passed": false
+      },
+      {
+        "t": 1.6024091459628038,
+        "n_points": 353,
+        "fraction": 0.3881019830028329,
+        "p95": 0.24272735127108064,
+        "arc": 81.42328208725377,
+        "passed": false
+      },
+      {
+        "t": 6.465481876045123,
+        "n_points": 132,
+        "fraction": 0.9242424242424242,
+        "p95": 0.028120270379074355,
+        "arc": 218.77885930932916,
+        "passed": true
+      },
+      {
+        "t": 11.328554606127444,
+        "n_points": 132,
+        "fraction": 0.9166666666666666,
+        "p95": 0.032575413658564076,
+        "arc": 225.91294332795448,
+        "passed": true
+      },
+      {
+        "t": 16.191627336209763,
+        "n_points": 111,
+        "fraction": 0.9819819819819819,
+        "p95": 0.013743883203463363,
+        "arc": 201.9959483284947,
+        "passed": true
+      }
+    ],
+    "profile_passed": 3,
+    "profile_tested": 5,
+    "radius_section_std": 0.0003078792823463244,
+    "length": 19.95229092032928,
+    "axial_min": -3.510663584119516,
+    "axial_max": 16.441627336209763,
+    "median_radial_residual": 0.003198156148460987,
+    "p95_radial_residual": 0.008625530174162474,
+    "n_representatives": 418,
+    "crop": "conductos",
+    "proposal_id": 3,
+    "instance_ids": [
+      2002
+    ]
+  },
+  {
+    "axis": [
+      0.9998609735627233,
+      0.01656544229476845,
+      0.001902542452001962
+    ],
+    "center": [
+      5.000007797710384,
+      -2.3291035121586665,
+      5.183226112977753
+    ],
+    "radius": 0.16369086994104962,
+    "source": "seccion_original",
+    "section_location": 5.0,
+    "profile": {
+      "axis_index": 0,
+      "location": 5.0,
+      "component": 4,
+      "points": 296,
+      "radius": 0.1618580847034456,
+      "median_residual": 0.0019362875787515693,
+      "p95_residual": 0.016558571998266824,
+      "fraction": 0.9898648648648649,
+      "arc_deg": 221.97518959953962,
+      "accepted_profile": true,
+      "crop": "conductos"
+    },
+    "threshold": 0.022,
+    "accepted": true,
+    "profile_tests": [
+      {
+        "t": -5.304882843399888,
+        "n_points": 155,
+        "fraction": 0.9806451612903225,
+        "p95": 0.013871888709858258,
+        "arc": 199.81703869004144,
+        "passed": true
+      },
+      {
+        "t": -3.2572347317252333,
+        "n_points": 195,
+        "fraction": 0.9948717948717949,
+        "p95": 0.008728955744494539,
+        "arc": 233.9952980536279,
+        "passed": true
+      },
+      {
+        "t": -1.2095866200505787,
+        "n_points": 287,
+        "fraction": 0.4878048780487805,
+        "p95": 0.22706916110674874,
+        "arc": 346.94375849198104,
+        "passed": false
+      },
+      {
+        "t": 0.8380614916240763,
+        "n_points": 157,
+        "fraction": 0.9936305732484076,
+        "p95": 0.010889489167224037,
+        "arc": 226.9670136994071,
+        "passed": true
+      },
+      {
+        "t": 2.885709603298731,
+        "n_points": 234,
+        "fraction": 0.13675213675213677,
+        "p95": 0.1027648691633784,
+        "arc": 161.50966562814963,
+        "passed": false
+      }
+    ],
+    "profile_passed": 3,
+    "profile_tested": 5,
+    "radius_section_std": 0.00010428562369243953,
+    "length": 8.690592446698618,
+    "axial_min": -5.554882843399888,
+    "axial_max": 3.135709603298731,
+    "median_radial_residual": 0.001382923521076329,
+    "p95_radial_residual": 0.009760627147735334,
+    "n_representatives": 282,
+    "crop": "conductos",
+    "proposal_id": 1,
+    "instance_ids": [
+      2003
+    ]
+  },
+  {
+    "axis": [
+      0.9999093935088719,
+      0.01345851979542362,
+      0.0002702177571932808
+    ],
+    "center": [
+      5.00000961940614,
+      -3.539478674839359,
+      3.0269538255111694
+    ],
+    "radius": 0.11124492644535655,
+    "source": "seccion_original",
+    "section_location": 5.0,
+    "profile": {
+      "axis_index": 0,
+      "location": 5.0,
+      "component": 13,
+      "points": 186,
+      "radius": 0.11354529121027845,
+      "median_residual": 0.001980611195136421,
+      "p95_residual": 0.01421177302802406,
+      "fraction": 0.9946236559139785,
+      "arc_deg": 189.5993807998573,
+      "accepted_profile": true,
+      "crop": "conductos"
+    },
+    "threshold": 0.022,
+    "accepted": true,
+    "profile_tests": [
+      {
+        "t": -5.525098894975409,
+        "n_points": 111,
+        "fraction": 1.0,
+        "p95": 0.012106191676777414,
+        "arc": 198.56352548459753,
+        "passed": true
+      },
+      {
+        "t": -0.11847227244263436,
+        "n_points": 119,
+        "fraction": 0.9915966386554622,
+        "p95": 0.01389869803791239,
+        "arc": 186.62643090230807,
+        "passed": true
+      },
+      {
+        "t": 5.2881543500901405,
+        "n_points": 201,
+        "fraction": 0.5572139303482587,
+        "p95": 0.17421342661702827,
+        "arc": 49.02852018804373,
+        "passed": false
+      },
+      {
+        "t": 10.694780972622913,
+        "n_points": 397,
+        "fraction": 0.3123425692695214,
+        "p95": 0.24034978655316347,
+        "arc": 77.27020620155974,
+        "passed": false
+      },
+      {
+        "t": 16.101407595155692,
+        "n_points": 139,
+        "fraction": 0.9424460431654677,
+        "p95": 0.024884759382534167,
+        "arc": 229.32527736381675,
+        "passed": true
+      }
+    ],
+    "profile_passed": 3,
+    "profile_tested": 5,
+    "radius_section_std": 0.001282250374907346,
+    "length": 22.1265064901311,
+    "axial_min": -5.775098894975409,
+    "axial_max": 16.351407595155692,
+    "median_radial_residual": 0.0030619935472014637,
+    "p95_radial_residual": 0.01072722839855886,
+    "n_representatives": 445,
+    "crop": "conductos",
+    "proposal_id": 6,
+    "instance_ids": [
+      2004
+    ]
+  },
+  {
+    "axis": [
+      0.9998854794006933,
+      0.015114977097204827,
+      0.0007520312472328549
+    ],
+    "center": [
+      5.00005376358634,
+      -4.362297880449262,
+      3.031161184975103
+    ],
+    "radius": 0.11243352291783287,
+    "source": "seccion_original",
+    "section_location": 5.0,
+    "profile": {
+      "axis_index": 0,
+      "location": 5.0,
+      "component": 11,
+      "points": 202,
+      "radius": 0.11191336485519625,
+      "median_residual": 0.002288626882190843,
+      "p95_residual": 0.012017148050588825,
+      "fraction": 0.9801980198019802,
+      "arc_deg": 219.26254072886402,
+      "accepted_profile": true,
+      "crop": "conductos"
+    },
+    "threshold": 0.022,
+    "accepted": true,
+    "profile_tests": [
+      {
+        "t": -5.446867073303697,
+        "n_points": 137,
+        "fraction": 1.0,
+        "p95": 0.013061967771918748,
+        "arc": 239.5195163520671,
+        "passed": true
+      },
+      {
+        "t": -0.032574540029461474,
+        "n_points": 127,
+        "fraction": 0.984251968503937,
+        "p95": 0.012548898877305033,
+        "arc": 218.0188892875588,
+        "passed": true
+      },
+      {
+        "t": 5.381717993244774,
+        "n_points": 135,
+        "fraction": 0.9333333333333333,
+        "p95": 0.026651848679187694,
+        "arc": 229.16616784465,
+        "passed": true
+      },
+      {
+        "t": 10.796010526519009,
+        "n_points": 326,
+        "fraction": 0.2361963190184049,
+        "p95": 0.23891096272330947,
+        "arc": 348.48074242800647,
+        "passed": false
+      },
+      {
+        "t": 16.210303059793244,
+        "n_points": 118,
+        "fraction": 0.211864406779661,
+        "p95": 0.060456332189165296,
+        "arc": 211.86855813014822,
+        "passed": false
+      }
+    ],
+    "profile_passed": 3,
+    "profile_tested": 5,
+    "radius_section_std": 0.00031073057632526014,
+    "length": 22.15717013309694,
+    "axial_min": -5.696867073303697,
+    "axial_max": 16.460303059793244,
+    "median_radial_residual": 0.004554877106407909,
+    "p95_radial_residual": 0.015604252712119052,
+    "n_representatives": 409,
+    "crop": "conductos",
+    "proposal_id": 4,
+    "instance_ids": [
+      2005
+    ]
+  }
+]

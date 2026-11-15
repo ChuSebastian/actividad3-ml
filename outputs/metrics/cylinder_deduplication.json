@@ -1,0 +1,52 @@
+[
+  {
+    "proposal_id": 12,
+    "duplicate_of": null,
+    "kept": true
+  },
+  {
+    "proposal_id": 7,
+    "duplicate_of": null,
+    "kept": true
+  },
+  {
+    "proposal_id": 8,
+    "duplicate_of": 12,
+    "kept": false
+  },
+  {
+    "proposal_id": 0,
+    "duplicate_of": 12,
+    "kept": false
+  },
+  {
+    "proposal_id": 9,
+    "duplicate_of": null,
+    "kept": true
+  },
+  {
+    "proposal_id": 2,
+    "duplicate_of": 9,
+    "kept": false
+  },
+  {
+    "proposal_id": 3,
+    "duplicate_of": null,
+    "kept": true
+  },
+  {
+    "proposal_id": 1,
+    "duplicate_of": null,
+    "kept": true
+  },
+  {
+    "proposal_id": 6,
+    "duplicate_of": null,
+    "kept": true
+  },
+  {
+    "proposal_id": 4,
+    "duplicate_of": null,
+    "kept": true
+  }
+]

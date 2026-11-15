@@ -1,0 +1,25 @@
+{
+  "n_points": 1647021,
+  "original_order_and_xyz_preserved": true,
+  "normals_and_original_rgb_preserved": true,
+  "index_mapping_exact": true,
+  "instance_labels_exact": true,
+  "semantic_labels_exact": true,
+  "cylinder_models_exact": true,
+  "segment_table_numeric_exact": true,
+  "protected_labels_unchanged": true,
+  "exports": {
+    "segmentacion_instancias.ply": {
+      "readable": true,
+      "points": 1647021,
+      "sha256": "804342b4bf0c024cf2600b62f230844040fe9791fc57d5379a47cc7e9741eb50"
+    },
+    "segmentacion_clases.ply": {
+      "readable": true,
+      "points": 1647021,
+      "sha256": "d574548a18a3480c212d53266d8db5f86df8125e89fd039b3bf1a6061e13781d"
+    }
+  },
+  "python": "3.10.12",
+  "open3d": "0.19.0"
+}
