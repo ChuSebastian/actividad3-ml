@@ -65,9 +65,17 @@ def render(points, colors, path, title="", cam=None, radius=1, subtitle=""):
     canvas = np.full((height * width, 3), 247, np.uint8)
     depth = np.full(height * width, -np.inf)
     point_colors = np.rint(np.clip(colors, 0, 1) * 255).astype(np.uint8)
-    for dx, dy in (
-        [(0, 0)] if radius == 0 else [(0, 0), (-1, 0), (1, 0), (0, -1), (0, 1)]
-    ):
+    offsets = (
+        [
+            (dx, dy)
+            for dx in range(-radius, radius + 1)
+            for dy in range(-radius, radius + 1)
+            if dx * dx + dy * dy <= radius * radius
+        ]
+        if radius > 1
+        else ([(0, 0)] if radius == 0 else [(0, 0), (-1, 0), (1, 0), (0, -1), (0, 1)])
+    )
+    for dx, dy in offsets:
         (shifted_x, shifted_y) = (x + dx, y + dy)
         valid = (
             (shifted_x >= 20)
@@ -530,3 +538,71 @@ def plot_original_sections(points, colors):
     figure.tight_layout()
     figure.savefig(FIGURES / "secciones_originales.png", dpi=220)
     plt.close(figure)
+
+
+def plot_semantic_comparisons(
+    original, colors, working, labels, baseline, corrected, candidates
+):
+    """Compara RGB, instancias y clases sobre recortes con puntos y cámara idénticos."""
+    import hashlib
+    import json
+    from src.classification import COLORS
+    from src.paths import FIGURES, METRICS, TEMP
+
+    inverse = working["inverse"]
+    full_labels, before, after = labels[inverse], baseline[inverse], corrected[inverse]
+    cameras = {}
+    selected = [1102, 937, 812, 871, 1019, 1940, 1097, 2001]
+    # Los recortes mantienen contexto sin asignar identidad a las hipótesis.
+    compact = candidates[candidates.possible_problem.str.contains("humana", na=False)]
+    if len(compact):
+        selected.append(int(compact.nlargest(1, "n_points").iloc[0].segment_id))
+    complex_case = candidates[
+        candidates.possible_problem.str.contains("Conjunto complejo", na=False)
+    ]
+    if len(complex_case):
+        selected.append(int(complex_case.nlargest(1, "n_points").iloc[0].segment_id))
+    frame_directory = TEMP / "semantic_frames"
+    frame_directory.mkdir(exist_ok=True)
+    for sid in dict.fromkeys(selected):
+        mask_target = full_labels == sid
+        if not mask_target.any():
+            continue
+        lo = original[mask_target].min(0) - 0.4
+        hi = original[mask_target].max(0) + 0.4
+        # En el conducto interesa la sección local; todo el tramo es demasiado largo.
+        if sid == 2001:
+            lo[0], hi[0] = 8.0, 11.0
+        mask = np.all((original >= lo) & (original <= hi), axis=1)
+        view = camera(
+            original[mask], azimuth=-70, elevation=18, width=1400, height=1050
+        )
+        paths = []
+        panels = [
+            ("rgb", "RGB original", colors),
+            ("instances", "Instancias", palette(full_labels)),
+            ("before", "Clases antes de consistencia", COLORS[before]),
+            ("after", "Clases después de consistencia", COLORS[after]),
+        ]
+        for name, title, rgb in panels:
+            path = frame_directory / f"semantic_{sid}_{name}.png"
+            render(
+                original[mask],
+                rgb[mask],
+                path,
+                f"Región {sid} · {title}",
+                view,
+                radius=2 if mask.sum() < 15000 else 1,
+            )
+            paths.append(path)
+        montage(paths, FIGURES / f"semantic_{sid}_comparison.png")
+        cameras[str(sid)] = dict(
+            camera=view,
+            bbox_min=lo.tolist(),
+            bbox_max=hi.tolist(),
+            n_points=int(mask.sum()),
+            point_index_sha256=hashlib.sha256(
+                np.flatnonzero(mask).tobytes()
+            ).hexdigest(),
+        )
+    (METRICS / "semantic_cameras.json").write_text(json.dumps(cameras, indent=2))

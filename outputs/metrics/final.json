@@ -10,6 +10,6 @@
   "size_p90": 1237.4,
   "size_max": 246437,
   "small_segments_lt100": 621,
-  "semantic_unknown_points": 427058,
-  "semantic_unknown_pct": 25.9291168722196
+  "semantic_unknown_points": 412170,
+  "semantic_unknown_pct": 25.0251818282827
 }

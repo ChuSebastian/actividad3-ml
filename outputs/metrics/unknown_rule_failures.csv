@@ -1,0 +1,10 @@
+criterion,n_regions,n_points,interpretation
+fails_linear_length,1181,164151,"Criterio actual no satisfecho; conteos superpuestos, no prueba de error"
+fails_planar_coherence,985,355556,"Criterio actual no satisfecho; conteos superpuestos, no prueba de error"
+fails_support_height,1283,322119,"Criterio actual no satisfecho; conteos superpuestos, no prueba de error"
+fails_support_width,97,198176,"Criterio actual no satisfecho; conteos superpuestos, no prueba de error"
+fails_support_axis,977,282293,"Criterio actual no satisfecho; conteos superpuestos, no prueba de error"
+fails_support_linearity,705,207678,"Criterio actual no satisfecho; conteos superpuestos, no prueba de error"
+fails_linear_linearity,865,255636,"Criterio actual no satisfecho; conteos superpuestos, no prueba de error"
+fails_linear_bbox,84,196805,"Criterio actual no satisfecho; conteos superpuestos, no prueba de error"
+insufficient_planar_support,1113,129727,"Criterio actual no satisfecho; conteos superpuestos, no prueba de error"

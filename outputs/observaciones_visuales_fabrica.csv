@@ -1,0 +1,211 @@
+﻿instance_id;Categoría visual propuesta;Confianza preliminar;Estado geométrico;Observación formalizada
+11;Superficie plana;Alta;Sección significativa;La región corresponde visualmente a una superficie plana.
+30;Superficie plana;Alta;Sección significativa;La región presenta una superficie plana reconocible.
+31;Tubería o conducto;Alta;Sección significativa;Se observan conductos, aunque la clasificación automática indica superficie plana.
+32;Superficie plana;Alta;Sección significativa;Se reconoce una superficie plana.
+39;Tubería o conducto;Alta;Sección significativa;Se identifica un tramo tubular que permanece sin categoría semántica.
+41;Tubería o conducto;Alta;Sección significativa;Se identifica un tramo tubular sin clasificar.
+42;Tubería o conducto;Alta;Sección significativa;Se identifica un tramo tubular sin clasificar.
+45;Superficie plana;Alta;Sección significativa;La geometría parece corresponder a una superficie plana.
+49;Superficie plana;Baja;Sección significativa;"Posible superficie plana; la identificación visual no es concluyente."
+51;Superficie plana;Alta;Sección significativa;La región corresponde aparentemente a una superficie plana.
+53;Superficie plana;Alta;Sección significativa;La categoría automática de superficie plana parece coherente con la observación.
+68;Superficie plana;Media;Sección significativa;Posible superficie plana que permanece sin clasificación semántica.
+78;Tubería o conducto;Alta;Sección significativa;Se reconocen tuberías, aunque la región figura como superficie plana.
+81;Tubería o conducto;Alta;Sección significativa;Se observan tuberías etiquetadas como superficie plana.
+86;Tubería o conducto;Alta;Sección significativa;La región parece contener tuberías clasificadas como superficie plana.
+88;Superficie plana;Alta;Sección significativa;La clasificación de superficie plana resulta visualmente consistente.
+93;Superficie plana;Media;Sección significativa;Posible superficie plana de orientación vertical, actualmente sin clasificar.
+94;Tubería o conducto;Alta;Sección significativa;Se identifica una tubería sin categoría semántica.
+97;Tubería o conducto;Alta;Sección significativa;La región contiene una estructura extensa de tuberías sin clasificar.
+99;Columna o soporte;Media;Sección significativa;Posible pilar estructural que permanece sin clasificar.
+100;Estructura o tubería;Baja;Ambiguo;"Podría representar una tubería o parte de la estructura metálica; requiere inspección adicional."
+101;Superficie plana;Media;Sección significativa;Posible superficie plana vertical.
+103;Estructura metálica;Media;Sección significativa;"Parece corresponder a una pieza metálica de la estructura industrial; la clase es todavía incierta."
+104;Estructura metálica;Baja;Sección significativa;"Posible componente de la estructura metálica; falta identificar su función."
+111;Tubería o conducto;Alta;Sección significativa;Se observan tuberías que permanecen sin clasificar.
+120;Persona;Alta;Sección significativa;Se reconoce una figura humana que permanece en la categoría desconocida.
+125;Estructura metálica;Media;Sección significativa;Se observa un componente de la estructura metálica sin clasificar.
+133;Persona;Alta;Sección significativa;Se reconoce visualmente una persona sin clasificación semántica.
+140;Tubería o conducto;Media;Fragmentado;Parece ser un fragmento de tubería.
+145;Estructura o tubería;Baja;Ambiguo;Podría ser parte de la estructura metálica o de una tubería.
+154;Tubería o viga;Baja;Mixto;"La región parece contener puntos de varios objetos; posible mezcla de tubería y viga."
+156;Persona;Alta;Sección significativa;"La región contiene figuras humanas reconocibles; verificar si agrupa más de una persona."
+162;Tanque o recipiente;Media;Sección significativa;"Posible tanque o recipiente integrado en la instalación; también podría corresponder a equipamiento conectado a tuberías."
+163;Persona;Alta;Sección significativa;Se reconoce una figura humana sin clasificar.
+172;Persona y objeto;Media;Mixto;La región parece mezclar una persona con otro objeto todavía no identificado.
+181;Tubería o conducto;Alta;Sección significativa;Se reconoce una tubería.
+182;Persona;Alta;Sección significativa;Se observa una figura humana.
+184;Tubería o conducto;Alta;Fragmentado;Parece corresponder a una parte de tubería.
+188;Accesorio o conexión de tubería;Alta;Sección significativa;Se distingue un elemento de conexión de tuberías, no necesariamente un tramo recto.
+191;Accesorio o conexión de tubería;Alta;Sección significativa;La región parece corresponder a una conexión de tubería.
+192;Persona;Alta;Sección significativa;Se observa una figura humana.
+193;Persona;Alta;Sección significativa;Se observa una figura humana.
+194;Accesorio o conexión de tubería;Media;Mixto;La región parece combinar un tramo de tubería y su conexión.
+195;Persona;Alta;Sección significativa;Se reconoce una figura humana.
+207;Tubería o conducto;Alta;Sección significativa;Se identifica una tubería.
+213;Estructura metálica;Media;Sección significativa;"Probable componente estructural; la función específica no es evidente."
+227;Accesorio o conexión de tubería;Media;Mixto;Se aprecian tuberías junto a sus conexiones.
+229;Viga;Baja;Sección significativa;"Posible viga; la identificación visual requiere confirmación."
+230;Estructura y tubería;Media;Mixto;Se observan tuberías próximas a componentes estructurales, posiblemente incluidas en la misma región.
+235;Persona;Alta;Sección significativa;Se reconoce una persona.
+246;Accesorio o conexión de tubería;Media;Mixto;La región contiene aparentemente tuberías y elementos de conexión.
+262;Accesorio o conexión de tubería;Media;Mixto;Se identifican posibles tuberías y sus conexiones dentro de la región.
+268;Persona;Alta;Fragmentado;Se aprecia solamente una parte de una figura humana.
+276;Viga o superficie plana;Baja;Ambiguo;"Región similar a la 229; podría ser una viga o una superficie plana."
+286;Tubería o conducto;Media;Sección significativa;Posible tubería.
+290;Tubería o conducto;Media;Sección significativa;Posible tubería.
+291;Baranda o estructura metálica;Alta;Sección significativa;Parece corresponder a la baranda de una escalera o estructura auxiliar.
+301;Viga;Alta;Sección significativa;Se reconoce una viga estructural.
+314;Tubería o conducto;Alta;Sección significativa;Se reconoce una tubería.
+320;Tubería o superficie plana;Baja;Ambiguo;"Podría corresponder a una superficie plana o a una tubería; similar a otros casos ambiguos."
+323;Accesorio o conexión de tubería;Alta;Sección significativa;Se reconoce una conexión de tubería.
+333;Persona;Alta;Sección significativa;Se observa una persona.
+338;Persona;Alta;Sección significativa;Se observa una persona.
+344;Accesorio o conexión de tubería;Alta;Sección significativa;Se reconoce una conexión de tubería.
+349;Columna o soporte;Alta;Fragmentado;La región parece abarcar solamente un fragmento de columna.
+362;Accesorio o conexión de tubería;Alta;Sección significativa;Se identifica una conexión de tubería.
+365;Accesorio o conexión de tubería;Media;Sección significativa;Posible accesorio o componente de una tubería.
+368;Tubería o conducto;Alta;Sección significativa;Se reconoce una tubería.
+378;Tubería o conducto;Media;Sección significativa;Posible tubería.
+381;Persona y superficie;Media;Mixto;Se aprecia una persona junto a otro objeto, posiblemente una superficie plana.
+387;Viga;Alta;Sección significativa;Se reconoce una viga.
+418;Persona;Alta;Sección significativa;Se reconoce una persona.
+428;Persona;Alta;Sección significativa;Se reconoce una persona.
+430;Persona;Alta;Sección significativa;Se observa una persona aparentemente manipulando o recogiendo tubos.
+434;Persona;Alta;Sección significativa;Se reconoce una persona.
+438;Persona;Alta;Sección significativa;Se reconoce una persona.
+454;Persona;Alta;Sección significativa;Se reconoce una persona.
+455;Persona;Alta;Sección significativa;Se reconoce una persona.
+456;Vehículo;Alta;Sección significativa;La región corresponde aparentemente a un automóvil.
+466;Estructura o superficie plana;Baja;Ambiguo;"Objeto no identificado con certeza; podría ser una superficie plana o pieza estructural."
+471;Estructura metálica;Baja;Sección significativa;"Posible componente de la estructura; identificación incierta."
+472;Vehículo;Alta;Sección significativa;La región parece pertenecer a un automóvil.
+473;Estructura o piso;Baja;Ambiguo;Podría corresponder a un componente estructural o a una porción del piso.
+474;Vehículo;Alta;Sección significativa;La región parece corresponder a un automóvil.
+482;Estructura metálica;Media;Mixto;Se observan varias vigas o componentes estructurales que podrían estar agrupados.
+487;Viga;Alta;Sección significativa;Se reconoce una viga.
+491;Viga;Media;Sección significativa;Posible viga.
+494;Vehículo;Alta;Sección significativa;La región parece pertenecer a un automóvil.
+495;Estructura o tubería;Baja;Ambiguo;Podría ser parte de una tubería o de una estructura auxiliar.
+497;Vehículo;Alta;Sección significativa;La región parece pertenecer a un automóvil.
+512;Tubería o conducto;Media;Fragmentado;Posible fragmento de tubería.
+531;Persona;Baja;Fragmentado;Podría ser un fragmento de persona por su proximidad a otra figura humana reconocible.
+534;Tubería o conducto;Alta;Fragmentado;Se observa una parte de tubería.
+536;Tubería o conducto;Alta;Fragmentado;Se observa una parte de tubería.
+538;Tubería o conducto;Media;Fragmentado;Posible fragmento de tubería.
+540;Tubería o conducto;Media;Fragmentado;Posible fragmento de tubería.
+551;Tubería o conducto;Alta;Sección significativa;Se reconoce una tubería.
+554;Tubería o conducto;Alta;Sección significativa;Se reconoce una tubería.
+558;Tubería o conducto;Alta;Sección significativa;Se reconoce una tubería.
+563;Accesorio o conexión de tubería;Media;Fragmentado;Posible accesorio o fragmento asociado a una tubería.
+568;Superficie plana;Media;Sección significativa;Posible superficie plana de orientación vertical.
+575;Tubería o conducto;Alta;Sección significativa;Se reconoce una tubería.
+593;Tubería o conducto;Media;Fragmentado;Posible fragmento de tubería.
+602;Tubería o conducto;Alta;Sección significativa;Se reconoce una tubería.
+603;Tubería o conducto;Alta;Sección significativa;Se reconoce una tubería.
+611;Accesorio o conexión de tubería;Alta;Fragmentado;Fragmento de un accesorio o conexión de tubería.
+614;Viga;Alta;Fragmentado;La región parece ser una parte de viga.
+623;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+624;Persona;Alta;Fragmentado;Se identifican la cabeza y parte de un brazo de una persona.
+625;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+651;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+663;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+702;Tubería o conducto;Alta;Sección significativa;Se reconoce una tubería.
+727;Tubería o conducto;Alta;Sección significativa;Se reconoce una tubería.
+754;Persona;Alta;Sección significativa;Se reconoce una persona.
+761;Columna o soporte;Alta;Fragmentado;La región corresponde a una porción de columna.
+765;Tubería o conducto;Alta;Sección significativa;Se reconoce una tubería.
+767;Tubería o conducto;Alta;Sección significativa;Se reconoce una tubería.
+775;Columna o soporte;Media;Fragmentado;Posible fragmento de columna.
+776;Accesorio o conexión de tubería;Alta;Fragmentado;Parte o accesorio de una tubería.
+778;Tubería o conducto;Alta;Sección significativa;Se reconoce una tubería.
+783;Accesorio o conexión de tubería;Alta;Fragmentado;Fragmento de accesorio o conexión de tubería.
+812;Viga;Alta;Fragmentado;Fragmento de viga.
+838;Columna o soporte;Media;Fragmentado;Posible fragmento de columna.
+871;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+888;Persona;Alta;Sección significativa;Se reconoce una persona.
+891;Persona;Alta;Fragmentado;Fragmento de figura humana.
+892;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+899;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+905;Columna o soporte;Alta;Fragmentado;Fragmento de columna.
+906;Accesorio o conexión de tubería;Alta;Fragmentado;Fragmento de accesorio de tubería.
+907;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+912;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+917;Estructura metálica;Media;Fragmentado;Posible componente parcial de la estructura metálica.
+922;Estructura metálica;Media;Fragmentado;Posible componente parcial de la estructura metálica.
+923;Persona y objeto;Media;Mixto;La región parece contener una persona y puntos de otro objeto.
+926;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+937;Columna o soporte;Alta;Fragmentado;Fragmento de columna.
+944;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+946;Estructura metálica;Media;Fragmentado;Posible fragmento de estructura metálica.
+947;Estructura metálica;Media;Fragmentado;Posible fragmento de estructura metálica.
+948;Estructura metálica;Media;Fragmentado;Posible fragmento de estructura metálica.
+951;Accesorio o conexión de tubería;Alta;Fragmentado;Fragmento de accesorio de tubería.
+953;Viga;Alta;Sección significativa;Se reconoce una viga.
+954;Tubería o conducto;Alta;Sección significativa;Se reconoce una tubería.
+971;Tubería o conducto;Alta;Sección significativa;Se reconoce una tubería.
+979;Tubería o conducto;Alta;Sección significativa;Se reconoce una tubería.
+981;Persona;Alta;Fragmentado;Fragmento de figura humana.
+982;Persona;Alta;Fragmentado;Fragmento de figura humana.
+987;Accesorio o conexión de tubería;Alta;Fragmentado;Fragmento de accesorio de tubería.
+990;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+993;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+994;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+996;Accesorio o conexión de tubería;Alta;Fragmentado;Fragmento de accesorio de tubería.
+1004;Tubería o conducto;Media;Fragmentado;Posible fragmento de tubería.
+1007;Tubería o conducto;Media;Fragmentado;Posible fragmento de tubería.
+1008;Tubería o conducto;Media;Fragmentado;Posible fragmento de tubería.
+1009;Tubería o conducto;Media;Fragmentado;Posible fragmento de tubería.
+1010;Tanque o recipiente;Alta;Fragmentado;Fragmento de un tanque o recipiente industrial.
+1019;Superficie plana;Baja;Ambiguo;"Región difícil de identificar; quizá corresponda a una superficie plana."
+1028;Tubería o conducto;Media;Fragmentado;Posible fragmento de tubería.
+1030;Panel de cubierta;Media;Sección significativa;Posible panel de la cubierta superior.
+1036;Panel de cubierta;Media;Sección significativa;Posible panel de la cubierta superior.
+1076;Barril o recipiente;Alta;Fragmentado;Fragmento de barril o recipiente cilíndrico.
+1087;Columna o soporte;Media;Fragmentado;Posible fragmento de columna.
+1088;Columna o soporte;Media;Fragmentado;Posible fragmento de columna.
+1093;Viga o soporte de cubierta;Media;Fragmentado;"Componente de soporte del techo; podría corresponder a una viga de cubierta."
+1097;Columna o soporte;Alta;Fragmentado;Fragmento de columna conectado a la estructura superior.
+1102;Columna o soporte;Alta;Fragmentado;Fragmento de columna.
+1107;Columna o soporte;Alta;Fragmentado;Fragmento de columna.
+1168;Barril o recipiente;Alta;Fragmentado;Fragmento de barril o recipiente.
+1173;Cilindro o recipiente portátil;Media;Fragmentado;Parte de un cilindro portátil similar a un recipiente de gas, sin confirmar su contenido.
+1199;Viga o soporte de cubierta;Media;Fragmentado;Parte de la estructura de vigas o soportes del techo.
+1203;Viga o soporte de cubierta;Media;Fragmentado;Parte de la estructura de vigas o soportes del techo.
+1206;Viga o soporte de cubierta;Media;Fragmentado;Parte de la estructura de vigas o soportes del techo.
+1209;Viga o soporte de cubierta;Media;Fragmentado;Parte de la estructura de vigas o soportes del techo.
+1212;Columna o soporte;Alta;Fragmentado;Fragmento de columna.
+1364;Barril o recipiente;Alta;Fragmentado;Fragmento de barril o recipiente.
+1378;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+1392;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+1419;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+1429;Columna o soporte;Media;Fragmentado;Posible fragmento de columna.
+1468;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+1475;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+1493;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+1494;Accesorio o conexión de tubería;Alta;Fragmentado;Fragmento de accesorio de tubería.
+1505;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+1523;Accesorio o conexión de tubería;Alta;Fragmentado;Fragmento de conexión o accesorio de tubería.
+1532;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+1562;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+1568;Accesorio o conexión de tubería;Alta;Fragmentado;Fragmento de conexión o accesorio de tubería.
+1569;Estructura metálica;Media;Fragmentado;Posible fragmento de estructura metálica.
+1634;Accesorio o conexión de tubería;Alta;Fragmentado;Fragmento de conexión o accesorio de tubería.
+1640;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+1642;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+1661;Columna o soporte;Alta;Fragmentado;Fragmento de columna.
+1724;Estructura o tubería;Baja;Ambiguo;Podría ser un componente de tubería o de la estructura metálica.
+1737;Accesorio o conexión de tubería;Alta;Fragmentado;Fragmento de conexión o accesorio de tubería.
+1747;Accesorio o conexión de tubería;Alta;Fragmentado;Fragmento de conexión o accesorio de tubería.
+1753;Carro de transporte;Media;Fragmentado;Parte del soporte móvil con ruedas utilizado para transportar un cilindro portátil.
+1754;Cilindro o recipiente portátil;Media;Fragmentado;"Parte del recipiente cilíndrico portátil; contenido no confirmado."
+1756;Carro de transporte;Media;Fragmentado;Parte del soporte móvil con ruedas asociado al recipiente cilíndrico.
+1758;Carro de transporte;Media;Fragmentado;Parte del soporte móvil con ruedas asociado al recipiente cilíndrico.
+1762;Accesorio o conexión de tubería;Alta;Fragmentado;Fragmento de accesorio o conexión de tubería.
+1794;Tubería o conducto;Alta;Fragmentado;Fragmento de tubería.
+1805;Tubería o conducto;Media;Fragmentado;Posible fragmento de tubería.
+1832;Accesorio o conexión de tubería;Alta;Fragmentado;Fragmento de conexión o accesorio de tubería.
+1835;Tubería o conducto;Media;Fragmentado;Posible fragmento de tubería.
+1940;Columna o soporte;Alta;Sección significativa;Se reconoce una columna.
+1986;Vehículo;Media;Sección significativa;Posible región asociada a un automóvil.

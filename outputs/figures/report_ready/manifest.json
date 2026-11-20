@@ -1,0 +1,1493 @@
+{
+  "vistas": {
+    "isometrica": {
+      "center": [
+        13.110618591308594,
+        5.560330390930176,
+        6.073947429656982
+      ],
+      "basis": [
+        [
+          0.7071067811865475,
+          0.7071067811865476,
+          0.0
+        ],
+        [
+          -0.4082482904638631,
+          0.408248290463863,
+          0.816496580927726
+        ],
+        [
+          0.5773502691896258,
+          -0.5773502691896257,
+          0.5773502691896258
+        ]
+      ],
+      "scale": 19.6117656769166,
+      "width": 1100,
+      "height": 820,
+      "azimuth": -45,
+      "elevation": 35.264389682754654
+    },
+    "frontal": {
+      "center": [
+        13.110618591308594,
+        5.560330390930176,
+        6.073947429656982
+      ],
+      "basis": [
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        [
+          6.123233995736766e-17,
+          -1.0,
+          0.0
+        ]
+      ],
+      "scale": 29.057814701581087,
+      "width": 1100,
+      "height": 820,
+      "azimuth": -90,
+      "elevation": 0
+    },
+    "lateral_izquierda": {
+      "center": [
+        13.110618591308594,
+        5.560330390930176,
+        6.073947429656982
+      ],
+      "basis": [
+        [
+          -1.2246467991473532e-16,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          -1.0,
+          1.2246467991473532e-16,
+          0.0
+        ]
+      ],
+      "scale": 26.155864780682705,
+      "width": 1100,
+      "height": 820,
+      "azimuth": 180,
+      "elevation": 0
+    },
+    "lateral_derecha": {
+      "center": [
+        13.110618591308594,
+        5.560330390930176,
+        6.073947429656982
+      ],
+      "basis": [
+        [
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "scale": 26.155864780682705,
+      "width": 1100,
+      "height": 820,
+      "azimuth": 0,
+      "elevation": 0
+    },
+    "superior": {
+      "center": [
+        13.110618591308594,
+        5.560330390930176,
+        6.073947429656982
+      ],
+      "basis": [
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          -6.123233995736766e-17,
+          1.0,
+          6.123233995736766e-17
+        ],
+        [
+          3.749399456654644e-33,
+          -6.123233995736766e-17,
+          1.0
+        ]
+      ],
+      "scale": 18.171442900263774,
+      "width": 1100,
+      "height": 820,
+      "azimuth": -90,
+      "elevation": 90
+    },
+    "inferior_oblicua": {
+      "center": [
+        13.110618591308594,
+        5.560330390930176,
+        6.073947429656982
+      ],
+      "basis": [
+        [
+          0.8660254037844386,
+          0.5000000000000001,
+          0.0
+        ],
+        [
+          0.23473578139294546,
+          -0.4065742997269625,
+          0.8829475928589271
+        ],
+        [
+          0.4414737964294636,
+          -0.7646550456261504,
+          -0.4694715627858908
+        ]
+      ],
+      "scale": 22.239419786979408,
+      "width": 1100,
+      "height": 820,
+      "azimuth": -60,
+      "elevation": -28
+    }
+  },
+  "casos": [
+    {
+      "instance_id": 154,
+      "clase_automatica": "Desconocido",
+      "puntos_segmento": 2613,
+      "puntos_contexto": 13781,
+      "camaras": {
+        "contexto": {
+          "center": [
+            3.779262065887451,
+            -1.3913530111312866,
+            4.689589500427246
+          ],
+          "basis": [
+            [
+              0.8660254037844386,
+              0.5000000000000001,
+              0.0
+            ],
+            [
+              -0.20336832153790016,
+              0.35224426555364696,
+              0.9135454576426009
+            ],
+            [
+              0.45677272882130054,
+              -0.7911535738303732,
+              0.4067366430758002
+            ]
+          ],
+          "scale": 144.71503175577865,
+          "width": 1100,
+          "height": 820,
+          "azimuth": -60,
+          "elevation": 24
+        },
+        "detalle": {
+          "center": [
+            3.779649019241333,
+            -1.3224610090255737,
+            4.694406032562256
+          ],
+          "basis": [
+            [
+              -0.8660254037844387,
+              -0.4999999999999998,
+              0.0
+            ],
+            [
+              0.10395584540887963,
+              -0.18005680599195542,
+              0.9781476007338056
+            ],
+            [
+              -0.4890738003669026,
+              0.847100670886274,
+              0.20791169081775934
+            ]
+          ],
+          "scale": 183.19745670330596,
+          "width": 1100,
+          "height": 820,
+          "azimuth": 120,
+          "elevation": 12
+        }
+      },
+      "limites_contexto": [
+        [
+          0.5243287086486816,
+          -2.3845584392547607,
+          3.755661964416504
+        ],
+        [
+          7.034969329833984,
+          -0.2603635787963867,
+          5.633150100708008
+        ]
+      ]
+    },
+    {
+      "instance_id": 1102,
+      "clase_automatica": "Soporte vertical candidato",
+      "puntos_segmento": 14199,
+      "puntos_contexto": 32165,
+      "camaras": {
+        "contexto": {
+          "center": [
+            19.936166763305664,
+            5.315958023071289,
+            3.6421315670013428
+          ],
+          "basis": [
+            [
+              0.8660254037844386,
+              0.5000000000000001,
+              0.0
+            ],
+            [
+              -0.20336832153790016,
+              0.35224426555364696,
+              0.9135454576426009
+            ],
+            [
+              0.45677272882130054,
+              -0.7911535738303732,
+              0.4067366430758002
+            ]
+          ],
+          "scale": 59.281171817191975,
+          "width": 600,
+          "height": 820,
+          "azimuth": -60,
+          "elevation": 24
+        },
+        "detalle": {
+          "center": [
+            19.936290740966797,
+            5.314873695373535,
+            3.4799418449401855
+          ],
+          "basis": [
+            [
+              -0.8660254037844387,
+              -0.4999999999999998,
+              0.0
+            ],
+            [
+              0.10395584540887963,
+              -0.18005680599195542,
+              0.9781476007338056
+            ],
+            [
+              -0.4890738003669026,
+              0.847100670886274,
+              0.20791169081775934
+            ]
+          ],
+          "scale": 62.742005341503756,
+          "width": 600,
+          "height": 820,
+          "azimuth": 120,
+          "elevation": 12
+        }
+      },
+      "limites_contexto": [
+        [
+          18.917442321777344,
+          4.054958820343018,
+          -2.1676409244537354
+        ],
+        [
+          20.955137252807617,
+          6.574789047241211,
+          9.127524375915527
+        ]
+      ]
+    },
+    {
+      "instance_id": 31,
+      "clase_automatica": "Superficie plana",
+      "puntos_segmento": 10097,
+      "puntos_contexto": 74833,
+      "camaras": {
+        "contexto": {
+          "center": [
+            10.402104377746582,
+            -4.034964084625244,
+            2.966648578643799
+          ],
+          "basis": [
+            [
+              0.8660254037844386,
+              0.5000000000000001,
+              0.0
+            ],
+            [
+              -0.20336832153790016,
+              0.35224426555364696,
+              0.9135454576426009
+            ],
+            [
+              0.45677272882130054,
+              -0.7911535738303732,
+              0.4067366430758002
+            ]
+          ],
+          "scale": 42.27441645848875,
+          "width": 1100,
+          "height": 820,
+          "azimuth": -60,
+          "elevation": 24
+        },
+        "detalle": {
+          "center": [
+            10.29311752319336,
+            -4.035033702850342,
+            2.9663023948669434
+          ],
+          "basis": [
+            [
+              -0.8660254037844387,
+              -0.4999999999999998,
+              0.0
+            ],
+            [
+              0.10395584540887963,
+              -0.18005680599195542,
+              0.9781476007338056
+            ],
+            [
+              -0.4890738003669026,
+              0.847100670886274,
+              0.20791169081775934
+            ]
+          ],
+          "scale": 44.388847459208385,
+          "width": 1100,
+          "height": 820,
+          "azimuth": 120,
+          "elevation": 12
+        }
+      },
+      "limites_contexto": [
+        [
+          -1.7104406356811523,
+          -5.7314066886901855,
+          2.229649305343628
+        ],
+        [
+          22.296676635742188,
+          -2.338660955429077,
+          3.702955722808838
+        ]
+      ]
+    },
+    {
+      "instance_id": 97,
+      "clase_automatica": "Desconocido",
+      "puntos_segmento": 10071,
+      "puntos_contexto": 21801,
+      "camaras": {
+        "contexto": {
+          "center": [
+            -1.1577125787734985,
+            -1.1538515090942383,
+            -0.14385825395584106
+          ],
+          "basis": [
+            [
+              0.8660254037844386,
+              0.5000000000000001,
+              0.0
+            ],
+            [
+              -0.20336832153790016,
+              0.35224426555364696,
+              0.9135454576426009
+            ],
+            [
+              0.45677272882130054,
+              -0.7911535738303732,
+              0.4067366430758002
+            ]
+          ],
+          "scale": 135.0660491895675,
+          "width": 1100,
+          "height": 820,
+          "azimuth": -60,
+          "elevation": 24
+        },
+        "detalle": {
+          "center": [
+            -1.3277764320373535,
+            -1.1537275314331055,
+            0.07927602529525757
+          ],
+          "basis": [
+            [
+              -0.8660254037844387,
+              -0.4999999999999998,
+              0.0
+            ],
+            [
+              0.10395584540887963,
+              -0.18005680599195542,
+              0.9781476007338056
+            ],
+            [
+              -0.4890738003669026,
+              0.847100670886274,
+              0.20791169081775934
+            ]
+          ],
+          "scale": 188.83116528604677,
+          "width": 1100,
+          "height": 820,
+          "azimuth": 120,
+          "elevation": 12
+        }
+      },
+      "limites_contexto": [
+        [
+          -2.919796943664551,
+          -3.1450436115264893,
+          -2.082503080368042
+        ],
+        [
+          0.26424407958984375,
+          0.8375884294509888,
+          2.2410550117492676
+        ]
+      ]
+    },
+    {
+      "instance_id": 182,
+      "clase_automatica": "Desconocido",
+      "puntos_segmento": 1280,
+      "puntos_contexto": 4781,
+      "camaras": {
+        "contexto": {
+          "center": [
+            2.1178197860717773,
+            -8.62358283996582,
+            -0.7437166571617126
+          ],
+          "basis": [
+            [
+              0.8660254037844386,
+              0.5000000000000001,
+              0.0
+            ],
+            [
+              -0.20336832153790016,
+              0.35224426555364696,
+              0.9135454576426009
+            ],
+            [
+              0.45677272882130054,
+              -0.7911535738303732,
+              0.4067366430758002
+            ]
+          ],
+          "scale": 298.88333469767804,
+          "width": 1100,
+          "height": 820,
+          "azimuth": -60,
+          "elevation": 24
+        },
+        "detalle": {
+          "center": [
+            2.117286443710327,
+            -8.623147964477539,
+            -0.7066512703895569
+          ],
+          "basis": [
+            [
+              -0.8660254037844387,
+              -0.4999999999999998,
+              0.0
+            ],
+            [
+              0.10395584540887963,
+              -0.18005680599195542,
+              0.9781476007338056
+            ],
+            [
+              -0.4890738003669026,
+              0.847100670886274,
+              0.20791169081775934
+            ]
+          ],
+          "scale": 388.2712375111912,
+          "width": 1100,
+          "height": 820,
+          "azimuth": 120,
+          "elevation": 12
+        }
+      },
+      "limites_contexto": [
+        [
+          1.2393826246261597,
+          -9.526344299316406,
+          -2.011174440383911
+        ],
+        [
+          2.995190143585205,
+          -7.719951629638672,
+          0.5978718996047974
+        ]
+      ]
+    },
+    {
+      "instance_id": 456,
+      "clase_automatica": "Desconocido",
+      "puntos_segmento": 5537,
+      "puntos_contexto": 21553,
+      "camaras": {
+        "contexto": {
+          "center": [
+            22.570606231689453,
+            13.39532470703125,
+            -0.8221443295478821
+          ],
+          "basis": [
+            [
+              0.8660254037844386,
+              0.5000000000000001,
+              0.0
+            ],
+            [
+              -0.20336832153790016,
+              0.35224426555364696,
+              0.9135454576426009
+            ],
+            [
+              0.45677272882130054,
+              -0.7911535738303732,
+              0.4067366430758002
+            ]
+          ],
+          "scale": 132.31141459448503,
+          "width": 1100,
+          "height": 820,
+          "azimuth": -60,
+          "elevation": 24
+        },
+        "detalle": {
+          "center": [
+            22.57134437561035,
+            13.39534854888916,
+            -0.7769517302513123
+          ],
+          "basis": [
+            [
+              -0.8660254037844387,
+              -0.4999999999999998,
+              0.0
+            ],
+            [
+              0.10395584540887963,
+              -0.18005680599195542,
+              0.9781476007338056
+            ],
+            [
+              -0.4890738003669026,
+              0.847100670886274,
+              0.20791169081775934
+            ]
+          ],
+          "scale": 182.08223238094573,
+          "width": 1100,
+          "height": 820,
+          "azimuth": 120,
+          "elevation": 12
+        }
+      },
+      "limites_contexto": [
+        [
+          19.356952667236328,
+          11.678380966186523,
+          -2.1672110557556152
+        ],
+        [
+          25.785736083984375,
+          15.112316131591797,
+          0.6133077144622803
+        ]
+      ]
+    },
+    {
+      "instance_id": 10,
+      "clase_automatica": "Cubierta superior",
+      "puntos_segmento": 9508,
+      "puntos_contexto": 19110,
+      "camaras": {
+        "contexto": {
+          "center": [
+            6.227863788604736,
+            7.1055097579956055,
+            8.484750747680664
+          ],
+          "basis": [
+            [
+              0.8660254037844386,
+              0.5000000000000001,
+              0.0
+            ],
+            [
+              -0.20336832153790016,
+              0.35224426555364696,
+              0.9135454576426009
+            ],
+            [
+              0.45677272882130054,
+              -0.7911535738303732,
+              0.4067366430758002
+            ]
+          ],
+          "scale": 152.3790686791568,
+          "width": 1100,
+          "height": 820,
+          "azimuth": -60,
+          "elevation": 24
+        },
+        "detalle": {
+          "center": [
+            6.221266746520996,
+            7.1053924560546875,
+            8.723180770874023
+          ],
+          "basis": [
+            [
+              -0.8660254037844387,
+              -0.4999999999999998,
+              0.0
+            ],
+            [
+              0.10395584540887963,
+              -0.18005680599195542,
+              0.9781476007338056
+            ],
+            [
+              -0.4890738003669026,
+              0.847100670886274,
+              0.20791169081775934
+            ]
+          ],
+          "scale": 176.062720058972,
+          "width": 1100,
+          "height": 820,
+          "azimuth": 120,
+          "elevation": 12
+        }
+      },
+      "limites_contexto": [
+        [
+          3.565183162689209,
+          4.948004722595215,
+          8.104043960571289
+        ],
+        [
+          8.877349853515625,
+          9.26278018951416,
+          9.342318534851074
+        ]
+      ]
+    },
+    {
+      "instance_id": 0,
+      "clase_automatica": "Piso",
+      "puntos_segmento": 246437,
+      "puntos_contexto": 333505,
+      "camaras": {
+        "contexto": {
+          "center": [
+            11.771199226379395,
+            -3.6006174087524414,
+            -1.6216800212860107
+          ],
+          "basis": [
+            [
+              0.8660254037844386,
+              0.5000000000000001,
+              0.0
+            ],
+            [
+              -0.20336832153790016,
+              0.35224426555364696,
+              0.9135454576426009
+            ],
+            [
+              0.45677272882130054,
+              -0.7911535738303732,
+              0.4067366430758002
+            ]
+          ],
+          "scale": 28.43398263475253,
+          "width": 1100,
+          "height": 820,
+          "azimuth": -60,
+          "elevation": 24
+        },
+        "detalle": {
+          "center": [
+            11.606335639953613,
+            -3.756434440612793,
+            -1.636136531829834
+          ],
+          "basis": [
+            [
+              -0.8660254037844387,
+              -0.4999999999999998,
+              0.0
+            ],
+            [
+              0.10395584540887963,
+              -0.18005680599195542,
+              0.9781476007338056
+            ],
+            [
+              -0.4890738003669026,
+              0.847100670886274,
+              0.20791169081775934
+            ]
+          ],
+          "scale": 29.82963166843165,
+          "width": 1100,
+          "height": 820,
+          "azimuth": 120,
+          "elevation": 12
+        }
+      },
+      "limites_contexto": [
+        [
+          -3.0822341442108154,
+          -11.737760543823242,
+          -2.3400983810424805
+        ],
+        [
+          26.294904708862305,
+          4.224891662597656,
+          -0.9321749210357666
+        ]
+      ]
+    },
+    {
+      "instance_id": 1016,
+      "clase_automatica": "Soporte vertical candidato",
+      "puntos_segmento": 22446,
+      "puntos_contexto": 36220,
+      "camaras": {
+        "contexto": {
+          "center": [
+            8.771856307983398,
+            5.287430286407471,
+            3.724907398223877
+          ],
+          "basis": [
+            [
+              0.8660254037844386,
+              0.5000000000000001,
+              0.0
+            ],
+            [
+              -0.20336832153790016,
+              0.35224426555364696,
+              0.9135454576426009
+            ],
+            [
+              0.45677272882130054,
+              -0.7911535738303732,
+              0.4067366430758002
+            ]
+          ],
+          "scale": 59.614991521529774,
+          "width": 600,
+          "height": 820,
+          "azimuth": -60,
+          "elevation": 24
+        },
+        "detalle": {
+          "center": [
+            8.771856307983398,
+            5.2874321937561035,
+            3.5374040603637695
+          ],
+          "basis": [
+            [
+              -0.8660254037844387,
+              -0.4999999999999998,
+              0.0
+            ],
+            [
+              0.10395584540887963,
+              -0.18005680599195542,
+              0.9781476007338056
+            ],
+            [
+              -0.4890738003669026,
+              0.847100670886274,
+              0.20791169081775934
+            ]
+          ],
+          "scale": 62.67863842927627,
+          "width": 600,
+          "height": 820,
+          "azimuth": 120,
+          "elevation": 12
+        }
+      },
+      "limites_contexto": [
+        [
+          7.719331741333008,
+          4.1073455810546875,
+          -2.1132164001464844
+        ],
+        [
+          9.824380874633789,
+          6.4675188064575195,
+          9.188024520874023
+        ]
+      ]
+    },
+    {
+      "instance_id": 1154,
+      "clase_automatica": "Elemento lineal candidato",
+      "puntos_segmento": 12962,
+      "puntos_contexto": 31860,
+      "camaras": {
+        "contexto": {
+          "center": [
+            9.645356178283691,
+            19.511249542236328,
+            5.736451625823975
+          ],
+          "basis": [
+            [
+              0.8660254037844386,
+              0.5000000000000001,
+              0.0
+            ],
+            [
+              -0.20336832153790016,
+              0.35224426555364696,
+              0.9135454576426009
+            ],
+            [
+              0.45677272882130054,
+              -0.7911535738303732,
+              0.4067366430758002
+            ]
+          ],
+          "scale": 49.60301955712457,
+          "width": 1100,
+          "height": 820,
+          "azimuth": -60,
+          "elevation": 24
+        },
+        "detalle": {
+          "center": [
+            9.669299125671387,
+            19.51116180419922,
+            5.736517906188965
+          ],
+          "basis": [
+            [
+              -0.8660254037844387,
+              -0.4999999999999998,
+              0.0
+            ],
+            [
+              0.10395584540887963,
+              -0.18005680599195542,
+              0.9781476007338056
+            ],
+            [
+              -0.4890738003669026,
+              0.847100670886274,
+              0.20791169081775934
+            ]
+          ],
+          "scale": 50.64676519389709,
+          "width": 1100,
+          "height": 820,
+          "azimuth": 120,
+          "elevation": 12
+        }
+      },
+      "limites_contexto": [
+        [
+          -1.1342225074768066,
+          18.744956970214844,
+          4.55902624130249
+        ],
+        [
+          20.472820281982422,
+          20.27736473083496,
+          6.914010047912598
+        ]
+      ]
+    },
+    {
+      "instance_id": 1097,
+      "clase_automatica": "Desconocido",
+      "puntos_segmento": 7426,
+      "puntos_contexto": 32340,
+      "camaras": {
+        "contexto": {
+          "center": [
+            19.465499877929688,
+            6.997401237487793,
+            3.6351258754730225
+          ],
+          "basis": [
+            [
+              0.8660254037844386,
+              0.5000000000000001,
+              0.0
+            ],
+            [
+              -0.20336832153790016,
+              0.35224426555364696,
+              0.9135454576426009
+            ],
+            [
+              0.45677272882130054,
+              -0.7911535738303732,
+              0.4067366430758002
+            ]
+          ],
+          "scale": 54.38710036731181,
+          "width": 600,
+          "height": 820,
+          "azimuth": -60,
+          "elevation": 24
+        },
+        "detalle": {
+          "center": [
+            19.46550178527832,
+            6.996087074279785,
+            3.688119888305664
+          ],
+          "basis": [
+            [
+              -0.8660254037844387,
+              -0.4999999999999998,
+              0.0
+            ],
+            [
+              0.10395584540887963,
+              -0.18005680599195542,
+              0.9781476007338056
+            ],
+            [
+              -0.4890738003669026,
+              0.847100670886274,
+              0.20791169081775934
+            ]
+          ],
+          "scale": 66.17638837225435,
+          "width": 600,
+          "height": 820,
+          "azimuth": 120,
+          "elevation": 12
+        }
+      },
+      "limites_contexto": [
+        [
+          18.758424758911133,
+          4.407328128814697,
+          -1.7706670761108398
+        ],
+        [
+          20.172578811645508,
+          9.584846496582031,
+          9.146906852722168
+        ]
+      ]
+    },
+    {
+      "instance_id": 812,
+      "clase_automatica": "Elemento lineal candidato",
+      "puntos_segmento": 140,
+      "puntos_contexto": 2310,
+      "camaras": {
+        "contexto": {
+          "center": [
+            18.533599853515625,
+            -2.5882253646850586,
+            4.910316467285156
+          ],
+          "basis": [
+            [
+              0.8660254037844386,
+              0.5000000000000001,
+              0.0
+            ],
+            [
+              -0.20336832153790016,
+              0.35224426555364696,
+              0.9135454576426009
+            ],
+            [
+              0.45677272882130054,
+              -0.7911535738303732,
+              0.4067366430758002
+            ]
+          ],
+          "scale": 353.11223248683496,
+          "width": 1100,
+          "height": 820,
+          "azimuth": -60,
+          "elevation": 24
+        },
+        "detalle": {
+          "center": [
+            18.59865951538086,
+            -2.5883893966674805,
+            4.912090301513672
+          ],
+          "basis": [
+            [
+              -0.8660254037844387,
+              -0.4999999999999998,
+              0.0
+            ],
+            [
+              0.10395584540887963,
+              -0.18005680599195542,
+              0.9781476007338056
+            ],
+            [
+              -0.4890738003669026,
+              0.847100670886274,
+              0.20791169081775934
+            ]
+          ],
+          "scale": 1644.4421766694402,
+          "width": 1100,
+          "height": 820,
+          "azimuth": 120,
+          "elevation": 12
+        }
+      },
+      "limites_contexto": [
+        [
+          18.063058853149414,
+          -3.639664649963379,
+          4.303386211395264
+        ],
+        [
+          19.134258270263672,
+          -1.537114143371582,
+          5.52079439163208
+        ]
+      ]
+    },
+    {
+      "instance_id": 1019,
+      "clase_automatica": "Elemento lineal candidato",
+      "puntos_segmento": 118,
+      "puntos_contexto": 1200,
+      "camaras": {
+        "contexto": {
+          "center": [
+            0.28883200883865356,
+            5.427773475646973,
+            5.5447845458984375
+          ],
+          "basis": [
+            [
+              0.8660254037844386,
+              0.5000000000000001,
+              0.0
+            ],
+            [
+              -0.20336832153790016,
+              0.35224426555364696,
+              0.9135454576426009
+            ],
+            [
+              0.45677272882130054,
+              -0.7911535738303732,
+              0.4067366430758002
+            ]
+          ],
+          "scale": 474.40148718355454,
+          "width": 1100,
+          "height": 820,
+          "azimuth": -60,
+          "elevation": 24
+        },
+        "detalle": {
+          "center": [
+            0.039223432540893555,
+            5.306768894195557,
+            5.328174591064453
+          ],
+          "basis": [
+            [
+              -0.8660254037844387,
+              -0.4999999999999998,
+              0.0
+            ],
+            [
+              0.10395584540887963,
+              -0.18005680599195542,
+              0.9781476007338056
+            ],
+            [
+              -0.4890738003669026,
+              0.847100670886274,
+              0.20791169081775934
+            ]
+          ],
+          "scale": 804.9469082731399,
+          "width": 1100,
+          "height": 820,
+          "azimuth": 120,
+          "elevation": 12
+        }
+      },
+      "limites_contexto": [
+        [
+          -1.1050281524658203,
+          4.747714996337891,
+          4.733878135681152
+        ],
+        [
+          1.1834750175476074,
+          5.865822792053223,
+          5.922471523284912
+        ]
+      ]
+    },
+    {
+      "instance_id": 1940,
+      "clase_automatica": "Soporte vertical candidato",
+      "puntos_segmento": 32,
+      "puntos_contexto": 1043,
+      "camaras": {
+        "contexto": {
+          "center": [
+            19.976978302001953,
+            20.277938842773438,
+            1.8882085084915161
+          ],
+          "basis": [
+            [
+              0.8660254037844386,
+              0.5000000000000001,
+              0.0
+            ],
+            [
+              -0.20336832153790016,
+              0.35224426555364696,
+              0.9135454576426009
+            ],
+            [
+              0.45677272882130054,
+              -0.7911535738303732,
+              0.4067366430758002
+            ]
+          ],
+          "scale": 298.51215582433997,
+          "width": 600,
+          "height": 820,
+          "azimuth": -60,
+          "elevation": 24
+        },
+        "detalle": {
+          "center": [
+            20.021465301513672,
+            20.201839447021484,
+            1.8883018493652344
+          ],
+          "basis": [
+            [
+              -0.8660254037844387,
+              -0.4999999999999998,
+              0.0
+            ],
+            [
+              0.10395584540887963,
+              -0.18005680599195542,
+              0.9781476007338056
+            ],
+            [
+              -0.4890738003669026,
+              0.847100670886274,
+              0.20791169081775934
+            ]
+          ],
+          "scale": 572.5645485025045,
+          "width": 1100,
+          "height": 820,
+          "azimuth": 120,
+          "elevation": 12
+        }
+      },
+      "limites_contexto": [
+        [
+          19.518369674682617,
+          19.66655158996582,
+          0.8194578886032104
+        ],
+        [
+          20.524559020996094,
+          20.73712921142578,
+          2.9571456909179688
+        ]
+      ]
+    }
+  ],
+  "fuentes_conservadas": {
+    "data/FARO_Scan_Full_Sub1_down3_with_normals.ply": "d971cdfa4ee61dc56390b71ec1e3fe7a00c09aaa8f781167ded9b477e6af65c7",
+    "data/nube_segmentada_resultado.ply": "bbfa12eee3f224bc1c0cb6b76f1cad73faefa1838f4c5dd92ad1bd7c12fb4baf",
+    "informe/bare_jrnl.tex": "ecfcc2949357c56d3478ca24bcbfbc25d4f7d116484c4ac3560094f73b97e9cc",
+    "notebooks/segmentacion_fabrica.ipynb": "029c08ae15b8437d891e401e19777d96ac590d7523d10c936c84f28ed59c6c45",
+    "outputs/class_labels.npy": "0025eff35f1794fe35e9fca8cbc0980a10826568afcc5c9efc20c3efc1fbeca7",
+    "outputs/labels.npy": "abcc4c8eaf8af8e915416bd2a73939581ca4db7f17138c8b2002568357f7855c",
+    "outputs/observaciones_visuales_fabrica.csv": "859d5fa972aa0b5f04d4334dc5e4ffa45586950c37b9f4e05df311634f80a29c",
+    "outputs/observaciones_visuales_fabrica.xlsx": "892a715daa944e07b29f4f68831fafa00b21a65365803ce9686018f9f452e12b",
+    "outputs/original_to_voxel.npy": "c6b262c6d730773b392611b3d6c05cb9d23c31956420ce31ca99a7a4dbeaf86a",
+    "outputs/review_candidates.csv": "ea49ef06c5fa0d8dd21b09340603563523621f14435564136ac259fad765221e",
+    "outputs/segmentacion_clases.ply": "4bf82a3403a08a2250420520158f23ae17cf8918c3506e3fea88d1c7eacf08a7",
+    "outputs/segmentacion_instancias.ply": "9c7b3cfb05df84663d7d887b62905964f07e8d3a0883278d05c6823797c75f95",
+    "outputs/segments.csv": "4d17148fec5d71b6b245ca76abd38003ecc4e9b29f79bcd2feb3d979e22a3104",
+    "outputs/cache/attributes.npy": "65a88ab9c2cd9dc061814f62be43fe362fc5d6ef29e1966f37115d2ea31bb59e",
+    "outputs/cache/before_cylinders.npy": "dbc19c2e456583e8390847277cf5bf875b0493f3469a0c1080e156cda3e38de3",
+    "outputs/cache/classes_before_consistency.npy": "1bbbb2d934303fd1f18ae985ab51a2b8611af7b0348dea848fc71255f33910d1",
+    "outputs/cache/classes_before_cylinders.npy": "2f872200ffb8702377d6b4c590f43e4f60c3b3b5326e4d3bb9e6a395ddd03ea8",
+    "outputs/cache/coarse.npy": "b2dab5e6a9a6eea66dc643dac9a7c16ac4771423d43dd8419af3ce37eb93d3a2",
+    "outputs/cache/cylinder_proposals.json": "3745d7886945b2db66206750acd07b35f165a95c54048fe897a01d73694893f7",
+    "outputs/cache/final_classes.npy": "b9d39c5a1d027a23fd3ad03a393448ffbb8589edac95a02d90b2570c12bb99f1",
+    "outputs/cache/final_labels.npy": "feae0c8c2d27dae2fe769d5fc36f4c41174e194e3f7dc4dbcd46f5ed15acccf2",
+    "outputs/cache/manifest.json": "7dcd18336a7db3663251711bb44f3ba46ce90e14ed90c25313032d3131bce73d",
+    "outputs/cache/neighbor_pairs.csv": "2de9541b683f662355cf0653780ea2640589a93ca8f1d1eb313466a524024b56",
+    "outputs/cache/planes.npy": "862a1d1c49e542b3ff430ae180465f2a3f2402b3061d98a7c18fa0212d9277ea",
+    "outputs/cache/preliminary_classes.npy": "34d9fa27c3b93c7bb7c3f6fb0b1651bebc3edfa2cc6ac30ca3842bd69ee0cc40",
+    "outputs/cache/refined_regions.npy": "8de581377b3322b1d07d9fcaab6af0cf0cbe10ea0600bf5d29bc240dc8f0ed5b",
+    "outputs/cache/working.npz": "a055aec3a6abaeedaacd81aa5e0dcb4408cc50a07a336676de85299f99c30082",
+    "outputs/cache/experiments/baseline_e0.12_m6_labels.npy": "79220c7096bee8067993b9b66336f664efa0133dc6baed6f48ff325d64edb2fd",
+    "outputs/cache/experiments/baseline_e0.16_m12_labels.npy": "7b3fd8fad33aa7180f6600a1f543f7c13541219e26bf4f5ec1c2c8f71cf66141",
+    "outputs/cache/experiments/baseline_e0.16_m6_labels.npy": "4e22fceced60c4f174cacb7c96a8068fc090738d61dfd088d12cd13bbfc8a195",
+    "outputs/cache/experiments/baseline_e0.20_m6_labels.npy": "4fbe7c2b9f1c19b7d482d4e2bcb1de4d424731b0e2b274fa39204706c5c00b80",
+    "outputs/cache/experiments/coarse_labels.npy": "b2dab5e6a9a6eea66dc643dac9a7c16ac4771423d43dd8419af3ce37eb93d3a2",
+    "outputs/cache/experiments/planes_t0.035_labels.npy": "3e6ab00e0fca13e6a4c62676cdc91b25d7a7b21bcc458fd0f55887c2e298707c",
+    "outputs/cache/experiments/planes_t0.055_labels.npy": "862a1d1c49e542b3ff430ae180465f2a3f2402b3061d98a7c18fa0212d9277ea",
+    "outputs/cache/experiments/planes_t0.080_labels.npy": "5959796be7bcece916c07bb1eb4ee72ef7aa802489d5c26d24224d4d79142bea",
+    "outputs/cache/experiments/regions_a18_c0.40_labels.npy": "b5e3113fdd3aed2f57830698cc590749f7acb812bf4597dc848b6b73b1d8292d",
+    "outputs/cache/experiments/regions_a28_c0.22_labels.npy": "a6049b29c4085fd5738cc003a57bb706fa912561e4125b1802f8aedcad45a326",
+    "outputs/cache/experiments/regions_a28_c0.40_labels.npy": "65a88ab9c2cd9dc061814f62be43fe362fc5d6ef29e1966f37115d2ea31bb59e",
+    "outputs/cache/experiments/regions_a28_c1.80_labels.npy": "62d95e039bba80400b808e9c98722ed81d6aa6138a2b81983f843f6246a25b56",
+    "outputs/cache/experiments/regions_a40_c0.40_labels.npy": "189c6792a6530fd8cd79b73590834a46a43722a80ae07ef6696b8a40b6b4dcb7",
+    "outputs/experiments/clustering.csv": "d4d2fd6ee2b9acc4bf5af3d4bc1893fb5491f5502016a9c6fb64b98f5b87b9ee",
+    "outputs/experiments/cylinder_controls.csv": "09c9b6b5e5ae827ce8aa1a07e4e7e5088028c6987e8349e0c5dec5045b166b5c",
+    "outputs/experiments/cylinder_crop_fits.csv": "ed81bb63db912d894b8b70af2be2d95eaf3438208500d74b361eb725c19021be",
+    "outputs/experiments/cylinder_crop_fits_strict.csv": "7a032152c9802ebbddd9202a2a25a8329434619659d03e644cc45d591c9ec5d4",
+    "outputs/experiments/fragment_experiments.csv": "5158b6acef33d348095d19c4e79da00f3f3f6237c266c13982c5bf8555c582c5",
+    "outputs/experiments/section_profiles.csv": "021948a1bcd423a7496a92d2b01f2adfe656be5bb46e06cb9d3cefd005e52f82",
+    "outputs/experiments/selected_merge_decisions.csv": "0a94637a84be89b61c99efc4c3a0afed3e66bd95e10b6dfb3c03afbf4d49b03e",
+    "outputs/experiments/selected_merge_groups.json": "8af00e6e80c99f31385ba858b2805e09db1681a54b676f6a8e8da39975433e3d",
+    "outputs/figures/01_original.png": "6b8b7286802a0cfa97b763dbdbaa7397d29aaf5d4f5c9a3c0d87c135d36c0fa3",
+    "outputs/figures/02_preprocesada.png": "a4e96bd69440cf576f39936d54d2bb04170118018aa0c78432dee7eab401ee43",
+    "outputs/figures/03_planos.png": "feaff39e1998c997a723c1e8acabcae734850caa599bcc65873b2bdb29a55dc4",
+    "outputs/figures/04_gruesa.png": "d8a5b50c3cbf641b82bdf66b509d4df144526472e09f8212e3ffe83a20136df7",
+    "outputs/figures/05_atributos.png": "ad5c2addb024358290776ac652db225f04e5c47f067a093f0fc34f63d49995d4",
+    "outputs/figures/06_regiones_refinadas.png": "9b6870fae55713b0352475e23bc336b9c9ffe12f5e4b7108f0a7344fad409467",
+    "outputs/figures/07_cilindros.png": "27b5cba97751cce00e839499ff792102249ef348b19d96ab94ff9aa8fd3a8e32",
+    "outputs/figures/08_instancias.png": "12805a0ca4e794faeffaae6340cd63005043dd31c4b40770fd80de52903bd251",
+    "outputs/figures/09_clases.png": "eeb656c501216c2536f4ad290778997cec3de3db8994f7fcabb260dd9e34a4bd",
+    "outputs/figures/comparativa_etapas.png": "7cb8a149bcc1fbd9f1acdbbb452535d22cb43e8e8945f30009c9dcfde0467915",
+    "outputs/figures/conductos_antes_cilindros.png": "f8370870c7bdde99fdc2276b14ca106f263fa1936b5e49dd6f4cf2a78b5e5ed7",
+    "outputs/figures/detalle_conductos_instancias.png": "1c72d03465997ba295b0812ed840dd36c9d2754e036506527fa13e8950cd49a2",
+    "outputs/figures/detalle_conductos_rgb.png": "f13343bef8719281ef2961826d64f1d9db2887787eadf84e216994bd9bcf57f5",
+    "outputs/figures/detalle_soportes_instancias.png": "9c37c194287e4134fcb4a9bed33c5ea08ad09580f97a215bc1ae38de301fb797",
+    "outputs/figures/detalle_soportes_rgb.png": "7116c105588e94723f58faeeb2f2f7c7c10fd7167f041bcfad8bec824c8a706b",
+    "outputs/figures/eda_densidad.png": "ba3e4269ca4f66c32b11c616bf1c75b64492022675a1d5fccbec41e52a70e155",
+    "outputs/figures/eda_distribuciones.png": "9b5713b4901afb51bec0bbe3ef29458df62cae9b40e25fa6cee54512b96ca6c2",
+    "outputs/figures/eda_normales_vecinos.png": "88243b5b8447d032fc3653d6a38f3cbeda959ea509d1c203b8c57011266c554f",
+    "outputs/figures/eda_proyecciones.png": "5af9b629ed54e21792a4d10d3b42422de9e2782e9681492f5f28994aac8b24a8",
+    "outputs/figures/experimentos_atributos.png": "efd188a7692e1277ab472610771986b41aded595c8dd6958b4c487dd30fb7cc4",
+    "outputs/figures/experimentos_cilindros.png": "9cffb0edef341bd8315c150d6050727d581697a3d6057bd8ceedec9b9cb9f8b5",
+    "outputs/figures/experimentos_dbscan.png": "a43c98a4c8e9a626f32ed140228171250ee0b77bef9e9f3a56b3886d5da65add",
+    "outputs/figures/experimentos_ransac.png": "db1ef0b89525893a176a625a1cfcfbb0322fc012da3636970f09714932ee8398",
+    "outputs/figures/leyenda_clases.png": "3123916c0c44f966a1aa0ff4535dbbe6138ca18a32c6139fde9d41419e5c7d39",
+    "outputs/figures/metricas_etapas.png": "7694c0a3f1896234f8db317de4a6f3fa846d846932be76783cbd4c686c431e24",
+    "outputs/figures/original_resultado.png": "eb9e90bf16dcc8f1c642d079c546155b5bb95e2ddab3e76ef022cf149936eeac",
+    "outputs/figures/refinamiento_conductos.png": "04ad4ed52cd1c27694ac16b45deef59377bc3b958b9ef93073dcd3730d14b632",
+    "outputs/figures/refinamiento_tubo.png": "761cc37ff11a52fc5c3f9ce4d25eda640e3241ef2b6a0d16423b62b4279be36c",
+    "outputs/figures/secciones_originales.png": "419ced8be80db7f3008fb23d1e50551d754a24321c4263c6c210c98dd8d9fb7f",
+    "outputs/figures/semantic_1019_comparison.png": "b819176e125fc74a6d2bc3812db2125a12190690e3f6321c7bc51fa80914de5f",
+    "outputs/figures/semantic_1097_comparison.png": "e289c3a4da3e7ac8e3cb9cdfebc101f206c76636ebca8e6f9dfc4cabf6b17a62",
+    "outputs/figures/semantic_1102_comparison.png": "5e30794537fa8f72cd65de80d6159d825543ff83a122d9b98de8e9a1f4292ddc",
+    "outputs/figures/semantic_162_comparison.png": "070cb770319403e2bf73da2948bd822c53dc95ed9aade11257b99f5e11fe4144",
+    "outputs/figures/semantic_1940_comparison.png": "ed67d8a2b06fccbe5b505f0def8c4abdd528d47ffd78e8e2110fc0253f033e66",
+    "outputs/figures/semantic_2001_comparison.png": "81502d9a3af0733db8625b92ca914c6ad3c0056734ff870495645a220f30a993",
+    "outputs/figures/semantic_482_comparison.png": "5982fea440469ad28c7ad92ada3489661ed391e9ddb3c6c06549ffc1b6ee7cec",
+    "outputs/figures/semantic_812_comparison.png": "f372cf11cff0254c6db35d564f880f4f83af567687e87f2cb238d9cb2c76df5d",
+    "outputs/figures/semantic_871_comparison.png": "85e7bc36f6117eaaaa8e45ae81f043bc7ee5c721606588caa35b3304204f8eee",
+    "outputs/figures/semantic_937_comparison.png": "bddd84d93c3f8d2d89397254605e6a0c175d2dd68601b1a3e2347a7fe9efee32",
+    "outputs/figures/tamanos_segmentos.png": "2c6ea6ce4040950801e888fc096c676bc47fbbfbc40294465e9f45da3901e69e",
+    "outputs/figures/tubo_antes.png": "fd0b2dc85a216fd8d824a058a42b3da46bdff043c5c64bb94b29574bf886277f",
+    "outputs/figures/tubo_despues.png": "8516e8c9d507696e205d7901904d656b4068aaae4e241a63960ea517baac80fd",
+    "outputs/figures/final_views/cameras.json": "216809859dcce9a7557a8e764ca92acbe315ba859655d69a6ebd18b8a24c3d12",
+    "outputs/figures/final_views/derecha.png": "89534da85fe4b5911e21446bc889084c57906cf5a2c8fed9898d115051e9961a",
+    "outputs/figures/final_views/frontal.png": "4f8862715162add8e8fb5424350d2ed3a375106f2675ac9403db62bf6d1f8759",
+    "outputs/figures/final_views/inferior_oblicua.png": "6914b19d273d8886ba46f8fd2e5019d52c266f18726b3916d1652b5cd5d809d2",
+    "outputs/figures/final_views/isometrica.png": "3f23b57f492a69f414b55783f00379f3ecf390ed75f5375f72610394e7b1f86a",
+    "outputs/figures/final_views/izquierda.png": "d490204e21e4b0973f5ceea524633f9e454a03d220b59ab7dc9ea2cfc1deef53",
+    "outputs/figures/final_views/superior.png": "e15d2073f29192538c17cbb42253cb2178386a2b01fca30f1ca08385150ac072",
+    "outputs/human_review/annotation_template.csv": "dc5a090514bd32573c30c595aecbe02419ee59c562ce8219feb6cc88ccdbe182",
+    "outputs/human_review/cases.csv": "8092e76cf067a74c59d48b4e5f58d2d61c37610062961c9a8d7fa60633f4941c",
+    "outputs/human_review/index.html": "664814df50cc86de8c82d3f7d4ecc575cf206a0002f5e4682fa502d9a107fcf0",
+    "outputs/human_review/instance_0/metadata.json": "95477385fe350f31d0fe02b617757d964adad2a7f4007faf935a768a93eba26f",
+    "outputs/human_review/instance_0/oblicua.png": "46f9f2c2d9a8a9847cfa08f2927ce16cc6460eaf44067db6443c5aced6afa542",
+    "outputs/human_review/instance_0/opuesta.png": "74fa3785c9a157f98521917a6caa10b8c01fc211747ec368bd1651fb896d96f5",
+    "outputs/human_review/instance_10/metadata.json": "59c691b94de4d5564bcafbfd8a269bd1c99c7208a4e98f15550e7588dc7fa63d",
+    "outputs/human_review/instance_10/oblicua.png": "b5e4f426ba3da673dcbaa23a108403eecf32941a175c1910df2ebba51045fa1d",
+    "outputs/human_review/instance_10/opuesta.png": "9757913b2b490848f15b8788a4f72a5781730ab9a30ea5b88e825eec501b617a",
+    "outputs/human_review/instance_1016/metadata.json": "cb46abe67321341746497d18c33ccf10e7e246015da36df1be9539d7285f50fb",
+    "outputs/human_review/instance_1016/oblicua.png": "b951ea37cc09a056bd349345a6d3dedd96a8955fe130ab0588d385642e248c4b",
+    "outputs/human_review/instance_1016/opuesta.png": "34c06e2e5b9b3109b83bb413737095caa60c1a70937f7808ae646fcac30308f1",
+    "outputs/human_review/instance_1102/metadata.json": "6bc3b18391b9def5f21e3c06c97435979584658a07a4c06e8486bf26800908ae",
+    "outputs/human_review/instance_1102/oblicua.png": "9cd8172c4b3135c31f2893cd9263243396a188895e75d01b170f85a81a35a1c6",
+    "outputs/human_review/instance_1102/opuesta.png": "9db7b9de21c1c858407a97455e79b0ca2f893fcbaebab39ca75febe55e21823f",
+    "outputs/human_review/instance_1154/metadata.json": "8b01e9e736dca2cb9a835d44b96d6dac9ee8ba76ea4fe54cdc4f95f41df69b1c",
+    "outputs/human_review/instance_1154/oblicua.png": "8a2e98946cedd4f7f0ec21e4b726d516a6d806dec85bb1354422846d60010b6a",
+    "outputs/human_review/instance_1154/opuesta.png": "c3ccb57fd379f0b519338b6a73182ae2372dd1052fc0bf3862fb918728a63cb3",
+    "outputs/human_review/instance_154/metadata.json": "d4293f7a6b34c854e2398a8f3d995d2dbf2aff226da32b6b538b12f90a6b82bc",
+    "outputs/human_review/instance_154/oblicua.png": "bc8ad9668c73529849ea0aa4549217dc8a82979f0a79063d7c654c7ba3601652",
+    "outputs/human_review/instance_154/opuesta.png": "dd67c682e53b864a6256968f49cac002bc9f7ea4c96885a644b84a1d9c90350b",
+    "outputs/human_review/instance_182/metadata.json": "6134013ea89e6e04bf59beec2f3b9371ade9c46a31220ebf013088b57e6c4347",
+    "outputs/human_review/instance_182/oblicua.png": "d34aaa2c08d232d465b8afe88f7a33132c7909a29e7e708c7e28aaca29dd9123",
+    "outputs/human_review/instance_182/opuesta.png": "c3bec5f862ebd8200f26e090c76413ccd7c746c5e597db406aa53c2f6f90398d",
+    "outputs/human_review/instance_31/metadata.json": "33cdeb15ddc7fc24dca9524c0354e5632bc996fae0988896779568dfee945558",
+    "outputs/human_review/instance_31/oblicua.png": "119a268626740abcb2d59c3b2cb39b36c5d5961cd3cf1d9c29538e004e8c6ee2",
+    "outputs/human_review/instance_31/opuesta.png": "e5e0a3bb208cf50528d1302e5224146269eecd348506a62b92e96d6b64e80aec",
+    "outputs/human_review/instance_456/metadata.json": "6c2c87e2b6b5d5af1bba19c59f96bd17f0434f6bf4355dda1af5c14a6b8ae10d",
+    "outputs/human_review/instance_456/oblicua.png": "535f8a2d4b43ca69b55fb4b9c059fea1c800c3deaac35ded67a69f0966d511c4",
+    "outputs/human_review/instance_456/opuesta.png": "57f0fbe7f314afc44cf303945c63bd74271b556aa543653550ef0a6bd88006a0",
+    "outputs/human_review/instance_97/metadata.json": "120e292cc14fc6115afc6882bf9b3c39c0ac641deadbf2c9224574fb032579d4",
+    "outputs/human_review/instance_97/oblicua.png": "e75f7372826d97e33b044590437a796a7fd25e4c2b6fb2df9966536bb51a8a3b",
+    "outputs/human_review/instance_97/opuesta.png": "c79380a94011a1eda6327a2d4e49e3eb8f2214f1ee73500b0648605779d2247f",
+    "outputs/metrics/alternative_cameras.json": "512916259eb89d4894c6c05d3962c67aaf80861f5bbdb5fa084aed7b097a1674",
+    "outputs/metrics/automatic_reference.json": "73ba7212f6696943fa2afb14feb973c2a5e29dfda6ab23cd781995a4fa392e0a",
+    "outputs/metrics/camera.json": "f1b5efac1ec682bcc4d4528a723f53b7431bab00bc27873496d6c406884b92e5",
+    "outputs/metrics/clean_reproduction.json": "5dde6abd6740c9aaf04660ab3c58c90dce20595816c9703b09acf364a73f1393",
+    "outputs/metrics/cylinder_deduplication.json": "857cc7fe730a06c7e24cc1ddeeb84c730fc114bd9ec03ddbb7ae0f5eba3cb3ed",
+    "outputs/metrics/cylinder_extension_audit.csv": "92595d08fbe1895de59418d7be7364a3543bad936cd291b70acaa1bbd713790a",
+    "outputs/metrics/cylinder_instances.csv": "00ab3c199b37086325ca3c69062bb17ca11496cf0afe10b558920fc2a165aaf6",
+    "outputs/metrics/cylinder_models.json": "dbd2cc822adb1580f81cd3d2d6d51cf21ea5b15f6b040950102e5469e4270034",
+    "outputs/metrics/cylinder_original_geometry.csv": "168736dd54120481f1b12ac3e16ae68362cb0e605d89c1bab8cf7380257e7da5",
+    "outputs/metrics/detail_cameras.json": "c3e757d5a892b1a3de61dfd0cdb35902f4854cbb0acc65366e11093d435760ec",
+    "outputs/metrics/eda.json": "04606c00ee8ac49cdf0955d71f6ffb3ea1ed2a3d51dc6ff1d8e513eb83c3904b",
+    "outputs/metrics/final.json": "54742573cf3b0439ec2c651d9861662c96017064dcfbb420258b33a5e659fb70",
+    "outputs/metrics/notebook_validation.json": "7ad90ff7212f3fac22d2a919bcc55e31e603d6009db661fe1f4ffa2efed3614c",
+    "outputs/metrics/parameters.json": "ca630fdf28b288cb65b765801ef2f1bf239b025bdaae42f522f58496154cda54",
+    "outputs/metrics/planes.json": "e7fbae4394db5666b053f956c5e4557abb6c80fa203dcb7aec51ea1513627247",
+    "outputs/metrics/preprocessing_comparison.json": "541dfffeb6255b9b368afe2894b9aa7fe0e1c9eda1cfd32817479b193a33d1f1",
+    "outputs/metrics/reference.json": "0bcc45c6532e5a6efbfc6543257740f0820767b8b8f3bc3f106c24c2cb8a240b",
+    "outputs/metrics/refinement_stages.csv": "d034a866a0d094d65a529a82e67d100699e7ccf532db6a0e83a5b5c4fc2d8b00",
+    "outputs/metrics/region_refinement.json": "fa19275e1eb755800242934a3936fcf68b7ac78800bb9e06a177b9576b7494c0",
+    "outputs/metrics/report_evidence_validation.json": "ee26272ee758ae337fdf9f9824f2206525ce6d3a32c46f32b177dae4c34e9bf2",
+    "outputs/metrics/semantic_analysis.json": "2cb730190124d315f765adf339292db0780645095b6acd0e00342958867249bb",
+    "outputs/metrics/semantic_cameras.json": "2733b1f81554b4f06c5caa0016e1d049c0d16ab02a762762b58c8f192b837e90",
+    "outputs/metrics/semantic_class_comparison.csv": "d8dd0d90380fbcbb64f5b2580b24d85cc3ea36282dd177dfc80baddf64ab54aa",
+    "outputs/metrics/semantic_comparison.csv": "6f9e18c4e2617c51760a7a08a93493e2ccb4ed87744a4d45a280701ad6acf79f",
+    "outputs/metrics/semantic_consistency_parameters.json": "805cff48271c469dba518b6ccd20ad84a021458b02f38f51fe42640004808cbc",
+    "outputs/metrics/semantic_contact_controls.csv": "9a21243a8cb614f6870604517b0a4ac481fdee1a710143958937950104770153",
+    "outputs/metrics/semantic_negative_controls.csv": "c95e27b16e2f0c9896f7984e8ec6b4c7b5691e77aaaa4af90dda1e69ce15caba",
+    "outputs/metrics/semantic_reclassifications.csv": "3c2c3387638fafbb45c747f1326f7c5f282da8264c5d673b6748b2afc5bcd2fc",
+    "outputs/metrics/semantic_rule_audit.csv": "c59c0fef682944e3127c868d8b25d2a95f0255d60f2d572ccd354fc8eb5fb321",
+    "outputs/metrics/semantic_runtime.json": "d60f6f31b1fe691c2cac7bebeb6da48c4eaf1b4762f8144fc5654c2e0cc617fb",
+    "outputs/metrics/semantic_summary.csv": "2457e5a3bf7473e146e765ab1be14f93890edcb4824fd1497984973b1f031660",
+    "outputs/metrics/small_remainders.csv": "bae83f06fcbadea903a3e36dcb6ad0fb85de4292270adb4da8dc9267c87eaea2",
+    "outputs/metrics/stage_metrics.csv": "fa4328a156588d8dc7e7e875ed70343553107132f7c715d93af33bc3860dadc8",
+    "outputs/metrics/unknown_planar_checks.csv": "ec64845153c2e3461887acc5b6912c7386c2c904a54ced5d2ffeb51072b1fe32",
+    "outputs/metrics/unknown_rule_failures.csv": "0b12f73daf17cbd02ab730375ca93acd6c29d827dcb3efd91774945fb6c9a2f7",
+    "outputs/metrics/unknown_size_distribution.csv": "d66a799174a63d606487d17020a0e84e69c435725817b2df5ac71c6454d1e1bf",
+    "outputs/metrics/validation.json": "3c600e14f6fb14971e854491373aac1f10bd002e4f4f2782630f2acea38c4765",
+    "outputs/metrics/vertical.json": "af4b6dcaba3c1e5a35a3a441c4487febefea128d2b3b8f9efa55ca162ee01e09"
+  },
+  "puntos_originales": 1647021,
+  "representantes": 459991,
+  "semilla_muestreo": 42,
+  "anotaciones_generadas": false,
+  "nota": "Solo presentación; desconocido es el nombre visual del ID 0. El detalle usa otra perspectiva con cámara ajustada al segmento completo; el contexto puede extenderse fuera de esa vista.",
+  "detalle_voxelizacion": {
+    "limites": [
+      [
+        19.4,
+        4.8,
+        -0.2
+      ],
+      [
+        20.4,
+        5.8,
+        1.2
+      ]
+    ],
+    "puntos_originales": 2502,
+    "representantes": 615,
+    "color_uniforme": true,
+    "camara": {
+      "center": [
+        19.805233001708984,
+        5.301039695739746,
+        0.49943605065345764
+      ],
+      "basis": [
+        [
+          0.8660254037844386,
+          0.5000000000000001,
+          0.0
+        ],
+        [
+          -0.20336832153790016,
+          0.35224426555364696,
+          0.9135454576426009
+        ],
+        [
+          0.45677272882130054,
+          -0.7911535738303732,
+          0.4067366430758002
+        ]
+      ],
+      "scale": 373.5641550162266,
+      "width": 1100,
+      "height": 820,
+      "azimuth": -60,
+      "elevation": 24
+    }
+  }
+}

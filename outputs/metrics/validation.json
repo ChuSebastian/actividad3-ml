@@ -4,20 +4,24 @@
   "normals_and_original_rgb_preserved": true,
   "index_mapping_exact": true,
   "instance_labels_exact": true,
-  "semantic_labels_exact": true,
+  "semantic_labels_reproducible": true,
   "cylinder_models_exact": true,
-  "segment_table_numeric_exact": true,
+  "segment_geometry_unchanged": true,
   "protected_labels_unchanged": true,
+  "previously_known_semantics_unchanged": true,
+  "changed_class_points": 14888,
+  "reclassified_regions": 6,
+  "integrity_is_not_quality_evaluation": true,
   "exports": {
     "segmentacion_instancias.ply": {
       "readable": true,
       "points": 1647021,
-      "sha256": "804342b4bf0c024cf2600b62f230844040fe9791fc57d5379a47cc7e9741eb50"
+      "sha256": "9c7b3cfb05df84663d7d887b62905964f07e8d3a0883278d05c6823797c75f95"
     },
     "segmentacion_clases.ply": {
       "readable": true,
       "points": 1647021,
-      "sha256": "d574548a18a3480c212d53266d8db5f86df8125e89fd039b3bf1a6061e13781d"
+      "sha256": "4bf82a3403a08a2250420520158f23ae17cf8918c3506e3fea88d1c7eacf08a7"
     }
   },
   "python": "3.10.12",

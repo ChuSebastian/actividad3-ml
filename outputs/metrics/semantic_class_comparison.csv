@@ -1,0 +1,15 @@
+stage,class_id,semantic,n_points
+before_consistency,0,unknown,427058
+before_consistency,1,piso,446570
+before_consistency,2,cubierta_superior,88100
+before_consistency,3,superficie_plana,112379
+before_consistency,4,soporte_vertical_candidato,186050
+before_consistency,5,elemento_lineal_candidato,359998
+before_consistency,6,conduccion_cilindrica_candidata,26866
+after_consistency,0,unknown,412170
+after_consistency,1,piso,446570
+after_consistency,2,cubierta_superior,88100
+after_consistency,3,superficie_plana,112379
+after_consistency,4,soporte_vertical_candidato,200566
+after_consistency,5,elemento_lineal_candidato,360370
+after_consistency,6,conduccion_cilindrica_candidata,26866

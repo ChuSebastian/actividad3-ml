@@ -1,0 +1,44 @@
+{
+  "protected_files": 293,
+  "all_protected_unchanged": true,
+  "points": 1647021,
+  "instances": 1967,
+  "instance_coverage": 97.08012223280699,
+  "semantic_unknown": 412170,
+  "cylinder_models": 7,
+  "baseline": {
+    "n_segments": 400,
+    "n_points": 1647021,
+    "unknown_points": 5804,
+    "unknown_pct": 0.3523938067577766,
+    "coverage_pct": 99.64760619324223,
+    "largest_pct": 74.68739014256649,
+    "size_min": 5,
+    "size_median": 31.0,
+    "size_p90": 308.20000000000005,
+    "size_max": 1230117,
+    "small_segments_lt100": 308
+  },
+  "coarse": {
+    "n_segments": 515,
+    "n_points": 1647021,
+    "unknown_points": 5754,
+    "unknown_pct": 0.3493580227574512,
+    "coverage_pct": 99.65064197724254,
+    "largest_pct": 56.21300517722604,
+    "size_min": 4,
+    "size_median": 49.0,
+    "size_p90": 1940.8000000000018,
+    "size_max": 925840,
+    "small_segments_lt100": 315
+  },
+  "notebook": {
+    "code_cells": 44,
+    "figures": 32,
+    "missing_figures": [],
+    "errors": 0,
+    "original_notebook_modified": false
+  },
+  "figures": 24,
+  "tables": 12
+}

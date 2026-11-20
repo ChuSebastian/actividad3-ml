@@ -18,6 +18,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from src.semantic_consistency import consistency, save_analysis
 from src.classification import COLORS, NAMES, planar_unknown, semantic_labels
 from src.clustering import dbscan, graph_regions, combine_regions
 from src.cylinders import apply_cylinders, deduplicate, proposals, validate_and_extend
@@ -199,6 +200,23 @@ def compute_stages(original, colors, original_normals):
         original,
         working["inverse"],
     )
+    np.save(CACHE / "classes_before_consistency.npy", classes)
+    semantic_start = time.perf_counter()
+    classes, changes, _, _ = consistency(
+        points,
+        normals,
+        working_colors,
+        labels,
+        classes,
+        working["counts"],
+        cylinder_records,
+    )
+    changes.to_csv(METRICS / "semantic_reclassifications.csv", index=False)
+    save_json(
+        METRICS / "semantic_runtime.json",
+        {"seconds": time.perf_counter() - semantic_start},
+    )
+    LOGGER.info("Consistencia semántica: %s regiones reclasificadas", len(changes))
     np.save(CACHE / "final_labels.npy", labels)
     np.save(CACHE / "final_classes.npy", classes)
     save_json(METRICS / "cylinder_models.json", cylinder_records)
@@ -249,6 +267,40 @@ def export_results(original, colors, normals, working):
                 "Superficie plana con continuidad o residual original p95 <0,03 u y "
                 "normales compatibles; no se infiere identidad del objeto"
             )
+    changes = pd.read_csv(METRICS / "semantic_reclassifications.csv").set_index(
+        "segment_id"
+    )
+    planar_checks = pd.read_csv(METRICS / "unknown_planar_checks.csv").set_index(
+        "segment_id"
+    )
+    merge_targets = {
+        group["target"]
+        for group in json.loads(
+            (EXPERIMENTS / "selected_merge_groups.json").read_text()
+        )
+    }
+    for sid in reasons:
+        if sid in changes.index:
+            reasons[sid] = changes.loc[sid, "justification"]
+        elif names[sid] == NAMES[6]:
+            reasons[sid] = (
+                "Perfil cilíndrico completo validado en al menos 3 de 5 secciones; eje/radio e intervalo axial compatibles; función industrial no confirmada"
+            )
+        elif sid in merge_targets:
+            reasons[sid] = (
+                "Unión coplanar aprobada por contacto, orientación, RGB y modelo plano conjunto; superficie plana sin identidad industrial inferida"
+            )
+        elif sid in planar_checks.index and bool(planar_checks.loc[sid, "accepted"]):
+            reasons[sid] = (
+                f"Plano comprobado en puntos originales: p95={planar_checks.loc[sid, 'p95_original']:.5f} u <0,03 u y normales compatibles"
+            )
+        else:
+            reasons[sid] = (
+                "Criterio aplicado antes del ajuste cilíndrico: " + reasons[sid]
+            )
+    reasons[-1] = (
+        "Puntos sin instancia (-1); no hay región geométrica suficiente para inferir una clase"
+    )
     table = segment_table(original, normals, labels, names, reasons, vertical)
     table.to_csv(OUTPUTS / "segments.csv", index=False)
     for name, display_colors in [
@@ -328,6 +380,7 @@ def calculation_signature() -> str:
         "merging.py",
         "cylinders.py",
         "classification.py",
+        "semantic_consistency.py",
         "pipeline.py",
     ]:
         tree = WithoutDocstrings().visit(ast.parse((ROOT / "src" / name).read_text()))
@@ -367,6 +420,7 @@ def main():
         "working.npz",
         "final_labels.npy",
         "final_classes.npy",
+        "classes_before_consistency.npy",
         "refined_regions.npy",
         "preliminary_classes.npy",
     ]
@@ -386,6 +440,7 @@ def main():
         run_experiments(original, colors, normals, working)
     labels, classes = export_results(original, colors, normals, working)
     plot_pipeline_results(original, colors, labels, classes, working)
+    save_analysis(original, colors, working)
     validate_results(original, colors, normals, working)
     if options.notebook:
         execute_notebook(ROOT / "notebooks" / "segmentacion_fabrica.ipynb")

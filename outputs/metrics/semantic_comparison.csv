@@ -1,0 +1,3 @@
+stage,n_regions,instance_coverage_pct,unknown_points,reclassified_regions,changed_class_points,split_regions,merged_regions
+before_consistency,1967,97.08012223280699,427058,0,0,0,0
+after_consistency,1967,97.08012223280699,412170,6,14888,0,0

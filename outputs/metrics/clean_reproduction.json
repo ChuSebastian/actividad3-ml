@@ -1,0 +1,90 @@
+{
+  "clean_directory": "/tmp/actividad3-ieee-clean",
+  "excluded": [
+    ".git",
+    ".venv",
+    "outputs/cache",
+    "temp",
+    ".agents",
+    ".codex",
+    ".aws"
+  ],
+  "pipeline_command": "python -m src.pipeline --recompute --experiments --notebook",
+  "exit_code": 0,
+  "figures_exit_code": 0,
+  "retained_evidence": [
+    "outputs/metrics/preprocessing_comparison.json",
+    "outputs/metrics/small_remainders.csv",
+    "outputs/metrics/parameters.json",
+    "outputs/metrics/refinement_stages.csv",
+    "outputs/metrics/automatic_reference.json",
+    "outputs/experiments/clustering.csv",
+    "outputs/experiments/fragment_experiments.csv"
+  ],
+  "source_snapshot_files": 121,
+  "protected_files_unchanged": {
+    "outputs/segmentacion_instancias.ply": true,
+    "outputs/segmentacion_clases.ply": true,
+    "outputs/labels.npy": true,
+    "outputs/class_labels.npy": true,
+    "outputs/segments.csv": true,
+    "outputs/observaciones_visuales_fabrica.csv": true,
+    "outputs/observaciones_visuales_fabrica.xlsx": true
+  },
+  "clean_results_equal": {
+    "outputs/segmentacion_instancias.ply": true,
+    "outputs/segmentacion_clases.ply": true,
+    "outputs/labels.npy": true,
+    "outputs/class_labels.npy": true,
+    "outputs/segments.csv": true
+  },
+  "notebook": {
+    "executed_code_cells": 44,
+    "error_outputs": 0
+  },
+  "python_environment": "Entorno .venv existente compartido como int\u00e9rprete; copia de fuentes y datos sin cach\u00e9 ni temporales. No se reinstalaron dependencias.",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "open3d": "0.19.0",
+    "scikit-learn": "1.7.2",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.7",
+    "nbclient": "0.10.2"
+  },
+  "historical_evidence_without_complete_generator": [
+    "outputs/metrics/preprocessing_comparison.json",
+    "outputs/metrics/small_remainders.csv",
+    "outputs/experiments/fragment_experiments.csv"
+  ],
+  "pipeline_sources_match_tested_copy": {
+    "src/classification.py": true,
+    "src/clustering.py": true,
+    "src/cylinders.py": true,
+    "src/eda.py": true,
+    "src/evaluation.py": true,
+    "src/experiments.py": true,
+    "src/inspect_segment.py": true,
+    "src/merging.py": true,
+    "src/paths.py": true,
+    "src/pipeline.py": true,
+    "src/ply_io.py": true,
+    "src/preprocessing.py": true,
+    "src/refinement.py": true,
+    "src/region_geometry.py": true,
+    "src/segmentation.py": true,
+    "src/semantic_consistency.py": true,
+    "src/validation.py": true,
+    "src/visualization.py": true,
+    "src/__init__.py": true
+  },
+  "retained_evidence_sha256": {
+    "outputs/metrics/preprocessing_comparison.json": "541dfffeb6255b9b368afe2894b9aa7fe0e1c9eda1cfd32817479b193a33d1f1",
+    "outputs/metrics/small_remainders.csv": "bae83f06fcbadea903a3e36dcb6ad0fb85de4292270adb4da8dc9267c87eaea2",
+    "outputs/metrics/parameters.json": "ca630fdf28b288cb65b765801ef2f1bf239b025bdaae42f522f58496154cda54",
+    "outputs/metrics/refinement_stages.csv": "d034a866a0d094d65a529a82e67d100699e7ccf532db6a0e83a5b5c4fc2d8b00",
+    "outputs/metrics/automatic_reference.json": "73ba7212f6696943fa2afb14feb973c2a5e29dfda6ab23cd781995a4fa392e0a",
+    "outputs/experiments/clustering.csv": "d4d2fd6ee2b9acc4bf5af3d4bc1893fb5491f5502016a9c6fb64b98f5b87b9ee",
+    "outputs/experiments/fragment_experiments.csv": "5158b6acef33d348095d19c4e79da00f3f3f6237c266c13982c5bf8555c582c5"
+  }
+}

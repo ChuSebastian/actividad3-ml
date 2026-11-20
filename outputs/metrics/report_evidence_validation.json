@@ -1,0 +1,11 @@
+{
+  "new_general_figures": 6,
+  "human_review_cases": 10,
+  "human_review_figures": 20,
+  "notebook_figures_checked": 32,
+  "notebook_metrics_match_final_arrays": true,
+  "all_contexts_include_all_target_points": true,
+  "original_exports_and_observations_unchanged": true,
+  "human_annotations_generated": false,
+  "automatic_classes_changed": false
+}

@@ -1,0 +1,5 @@
+categoria,particion,positivos,negativos,tp,fp,fn,tn,parametros,configuraciones
+Persona,desarrollo,9,69,1,2,8,67,"{""hmin"": 0.5, ""hmax"": 1.8, ""width"": 1.0, ""ratio"": 1.5, ""linearity_max"": 0.85, ""floor_gap"": 0.25}",486
+Persona,comprobacion,16,36,2,2,14,34,"{""hmin"": 0.5, ""hmax"": 1.8, ""width"": 1.0, ""ratio"": 1.5, ""linearity_max"": 0.85, ""floor_gap"": 0.25}",486
+Vehículo,desarrollo,2,76,1,0,1,76,"{""length_min"": 1.5, ""thin_min"": 0.8, ""hmax"": 1.8, ""floor_gap"": 0.3}",54
+Vehículo,comprobacion,3,49,1,0,2,49,"{""length_min"": 1.5, ""thin_min"": 0.8, ""hmax"": 1.8, ""floor_gap"": 0.3}",54

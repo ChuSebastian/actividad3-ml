@@ -1,0 +1,7 @@
+segment_id,before_class,after_class,n_points,reference_id,rule,justification
+812,0,5,140,614.0,linear_connected_fragment,"Continuidad con elemento lineal 614: ejes compatibles, offset=0.1454 u, contacto y RGB; PCA conjunta L>0,96 y anchura transversal 0.3936<0,85 u. No se infiere función de viga."
+871,0,5,114,40.0,linear_connected_fragment,"Continuidad con elemento lineal 40: ejes compatibles, offset=0.2041 u, contacto y RGB; PCA conjunta L>0,96 y anchura transversal 0.6199<0,85 u. No se infiere función de viga."
+937,0,4,285,577.0,support_connected_fragment,"Fragmento vertical dentro de la envolvente del soporte 577; al menos 5 contactos <0,18 u, separación mínima 0.0674 u; orientación, normales y RGB compatibles."
+1019,0,5,118,1271.0,linear_connected_fragment,"Continuidad con elemento lineal 1271: ejes compatibles, offset=0.1426 u, contacto y RGB; PCA conjunta L>0,96 y anchura transversal 0.2656<0,85 u. No se infiere función de viga."
+1102,0,4,14199,,support_structural_template,"Soporte candidato: H=9.188, ancho=1.325<1,45 u, L=0.9689, eje vertical=0.9991; base baja, cota superior y retícula de soportes (dx=0.458, dy=0.015 u)."
+1940,0,4,32,459.0,support_connected_fragment,"Fragmento vertical dentro de la envolvente del soporte 459; al menos 5 contactos <0,18 u, separación mínima 0.0729 u; orientación, normales y RGB compatibles."

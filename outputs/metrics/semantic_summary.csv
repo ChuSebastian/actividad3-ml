@@ -1,8 +1,8 @@
 class_id,semantic,n_points,pct
-0,unknown,427058,25.9291168722196
+0,unknown,412170,25.0251818282827
 1,piso,446570,27.113801220506602
 2,cubierta_superior,88100,5.349051408573419
 3,superficie_plana,112379,6.823167403451444
-4,soporte_vertical_candidato,186050,11.296152265210948
-5,elemento_lineal_candidato,359998,21.857523370983127
+4,soporte_vertical_candidato,200566,12.177501076185427
+5,elemento_lineal_candidato,360370,21.880109603945545
 6,conduccion_cilindrica_candidata,26866,1.6311874590548632
